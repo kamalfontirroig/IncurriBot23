@@ -1,7 +1,7 @@
 # IncurriBot23
 Selenium bot that logs my worked hours into Nttdata's Jira.
 
-#To use the DEBUGGER
+# To use the DEBUGGER
 Create a chrome shorcut with these arguments:
 "{YourPathToChrome}\chrome.exe" -remote-debugging-port=9014 --user-data-dir="{YourPathToIncurriBot23}\IncurriBot23\debugging"
 
