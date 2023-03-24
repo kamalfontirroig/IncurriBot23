@@ -1,0 +1,6 @@
+2023/01/10-11:27:46.922 3770 Reusing MANIFEST C:\Users\kfontirr\OneDrive - everis\Documentos\02 - NTTDATA\IncurriBot23\debugging\Default\Local Storage\leveldb/MANIFEST-000001
+2023/01/10-11:27:46.926 3770 Recovering log #3
+2023/01/10-11:27:46.927 3770 Reusing old log C:\Users\kfontirr\OneDrive - everis\Documentos\02 - NTTDATA\IncurriBot23\debugging\Default\Local Storage\leveldb/000003.log 
+2023/01/10-16:42:09.292 1504 Level-0 table #5: started
+2023/01/10-16:42:09.297 1504 Level-0 table #5: 12317 bytes OK
+2023/01/10-16:42:09.300 1504 Delete type=0 #3

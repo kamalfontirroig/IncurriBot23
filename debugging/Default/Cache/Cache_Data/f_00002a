@@ -1,0 +1,1148 @@
+(self.webpackChunkppm=self.webpackChunkppm||[]).push([[4046],{84046:(q,N,m)=>{"use strict";m.d(N,{deG:()=>P_,tb:()=>jg,AFp:()=>kg,ip1:()=>Oa,CZH:()=>hr,hGG:()=>pT,z2F:()=>yo,sBO:()=>uv,Sil:()=>_o,_Vd:()=>sr,EJc:()=>$g,SBq:()=>Mt,qLn:()=>kn,vpe:()=>xt,gxx:()=>Bn,tBr:()=>An,XFs:()=>H,OlP:()=>de,zs3:()=>ie,IIB:()=>iw,ZZ4:()=>Ds,aQg:()=>ws,soG:()=>ks,YKP:()=>yp,v3s:()=>Kw,h0i:()=>dn,PXZ:()=>$w,R0b:()=>We,FiY:()=>Ot,r_U:()=>lw,Lbi:()=>Fg,g9A:()=>Lg,f1m:()=>$a,Qsj:()=>zI,FYo:()=>vs,JOm:()=>vt,Tiy:()=>la,q3G:()=>fe,PiD:()=>kr,tp0:()=>Kt,EAV:()=>Zw,Rgc:()=>oo,dDg:()=>Qg,DyG:()=>Ko,GfV:()=>up,s_b:()=>xs,ifc:()=>Ie,eFA:()=>Yg,Ez6:()=>Nm,G48:()=>Sw,Gpc:()=>y,f3M:()=>W_,X6Q:()=>Ha,_c5:()=>lT,VLi:()=>Ow,c2e:()=>Hg,zSh:()=>Gr,wAp:()=>j,vHH:()=>$,EiD:()=>wu,mCW:()=>Fr,qzn:()=>Vn,JVY:()=>ly,pB0:()=>dy,eBb:()=>cy,L6k:()=>ay,LAX:()=>uy,cg1:()=>Jl,Tjo:()=>sT,kL8:()=>Ah,yhl:()=>_u,dqk:()=>ae,sIi:()=>zr,CqO:()=>Hl,QGY:()=>jl,F4k:()=>Ff,dwT:()=>QC,RDi:()=>Ym,AaK:()=>D,z3N:()=>St,qOj:()=>wl,TTD:()=>ri,_Bn:()=>sp,xp6:()=>ud,uIk:()=>xl,Tol:()=>ih,Gre:()=>bh,MT6:()=>Ch,ekj:()=>Gl,Suo:()=>hg,Xpm:()=>Zs,lG2:()=>Ec,Yz7:()=>Ce,cJS:()=>br,oAB:()=>Js,Yjl:()=>bc,Y36:()=>Zr,_UZ:()=>Vf,GkF:()=>kf,BQk:()=>Fl,ynx:()=>Ll,qZA:()=>kl,TgZ:()=>Vl,EpF:()=>Lf,n5z:()=>nu,Ikx:()=>Zl,LFG:()=>ge,$8M:()=>Ii,$Z:()=>Sf,NdJ:()=>$l,CRH:()=>pg,kcU:()=>Uc,O4$:()=>Bc,oxw:()=>Bf,ALo:()=>rg,lcZ:()=>og,xi3:()=>sg,Dn7:()=>ig,gM2:()=>lg,G7q:()=>ag,Hsn:()=>Wf,F$t:()=>Uf,Q6J:()=>Ol,s9C:()=>Ul,DdM:()=>Gp,VKq:()=>Kp,WLB:()=>qp,kEZ:()=>zp,l5B:()=>Yp,qbA:()=>Zp,iGM:()=>dg,MAs:()=>If,Jf7:()=>Fu,CHM:()=>Ac,oJD:()=>Tu,uOi:()=>Li,LSH:()=>ki,B6R:()=>hc,kYT:()=>_c,Akn:()=>ct,Udp:()=>Ql,YNc:()=>Cf,W1O:()=>yg,_uU:()=>hh,Oqu:()=>ql,hij:()=>ms,AsE:()=>zl,lnq:()=>Yl,Gf:()=>fg});var x=m(90850),M=m(53488),V=m(32731),P=m(38009),R=m(98834);
+/**
+     * @license Angular v12.2.12
+     * (c) 2010-2021 Google LLC. https://angular.io/
+     * License: MIT
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function C(e){for(let t in e)if(e[t]===C)return t;throw Error("Could not find renamed property on target object.")}function k(e,t){for(const n in t)t.hasOwnProperty(n)&&!e.hasOwnProperty(n)&&(e[n]=t[n])}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function D(e){if("string"==typeof e)return e;if(Array.isArray(e))return"["+e.map(D).join(", ")+"]";if(null==e)return""+e;if(e.overriddenName)return`${e.overriddenName}`;if(e.name)return`${e.name}`;const t=e.toString();if(null==t)return""+t;const n=t.indexOf("\n");return-1===n?t:t.substring(0,n)}function T(e,t){return null==e||""===e?null===t?"":t:null==t||""===t?e:e+" "+t}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const E=C({__forward_ref__:C});function y(e){return e.__forward_ref__=y,e.toString=function(){return D(this())},e}function _(e){return O(e)?e():e}function O(e){return"function"==typeof e&&e.hasOwnProperty(E)&&e.__forward_ref__===y}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class $ extends Error{constructor(t,n){super(function(e,t){return`${e?`NG0${e}: `:""}${t}`}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(t,n)),this.code=t}}function F(e){return"string"==typeof e?e:null==e?"":String(e)}function oe(e){return"function"==typeof e?e.name||e.toString():"object"==typeof e&&null!=e&&"function"==typeof e.type?e.type.name||e.type.toString():F(e)}function wo(e,t){const n=t?` in ${t}`:"";throw new $("201",`No provider for ${oe(e)} found${n}`)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function je(e,t){null==e&&function(e,t,n,r){throw new Error(`ASSERTION ERROR: ${e}`+(null==r?"":` [Expected=> ${n} ${r} ${t} <=Actual]`))}(t,e,null,"!=")}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Ce(e){return{token:e.token,providedIn:e.providedIn||null,factory:e.factory,value:void 0}}const Nm=Ce;function br(e){return{providers:e.providers||[],imports:e.imports||[]}}function Rt(e){return ac(e,To)||ac(e,uc)}function ac(e,t){return e.hasOwnProperty(t)?e[t]:null}function cc(e){return e&&(e.hasOwnProperty(Ks)||e.hasOwnProperty(Am))?e[Ks]:null}const To=C({\u0275prov:C}),Ks=C({\u0275inj:C}),uc=C({ngInjectableDef:C}),Am=C({ngInjectorDef:C});
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */var H=(()=>((H=H||{})[H.Default=0]="Default",H[H.Host=1]="Host",H[H.Self=2]="Self",H[H.SkipSelf=4]="SkipSelf",H[H.Optional=8]="Optional",H))();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let qs;function Ht(e){const t=qs;return qs=e,t}function dc(e,t,n){const r=Rt(e);return r&&"root"==r.providedIn?void 0===r.value?r.value=r.factory():r.value:n&H.Optional?null:void 0!==t?t:void wo(D(e),"Injector")}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function $t(e){return{toString:e}.toString()}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */var Qe=(()=>((Qe=Qe||{})[Qe.OnPush=0]="OnPush",Qe[Qe.Default=1]="Default",Qe))(),Ie=(()=>((Ie=Ie||{})[Ie.Emulated=0]="Emulated",Ie[Ie.None=2]="None",Ie[Ie.ShadowDom=3]="ShadowDom",Ie))();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Sm="undefined"!=typeof globalThis&&globalThis,Vm="undefined"!=typeof window&&window,km="undefined"!=typeof self&&"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope&&self,ae=Sm||"undefined"!=typeof global&&global||Vm||km,mn={},te=[],Mo=C({\u0275cmp:C}),zs=C({\u0275dir:C}),Ys=C({\u0275pipe:C}),fc=C({\u0275mod:C}),Lm=C({\u0275loc:C}),Pt=C({\u0275fac:C}),Cr=C({__NG_ELEMENT_ID__:C});
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+let Fm=0;function Zs(e){return $t(()=>{const n={},r={type:e.type,providersResolver:null,decls:e.decls,vars:e.vars,factory:null,template:e.template||null,consts:e.consts||null,ngContentSelectors:e.ngContentSelectors,hostBindings:e.hostBindings||null,hostVars:e.hostVars||0,hostAttrs:e.hostAttrs||null,contentQueries:e.contentQueries||null,declaredInputs:n,inputs:null,outputs:null,exportAs:e.exportAs||null,onPush:e.changeDetection===Qe.OnPush,directiveDefs:null,pipeDefs:null,selectors:e.selectors||te,viewQuery:e.viewQuery||null,features:e.features||null,data:e.data||{},encapsulation:e.encapsulation||Ie.Emulated,id:"c",styles:e.styles||te,_:null,setInput:null,schemas:e.schemas||null,tView:null},o=e.directives,s=e.features,i=e.pipes;return r.id+=Fm++,r.inputs=yc(e.inputs,n),r.outputs=yc(e.outputs),s&&s.forEach(l=>l(r)),r.directiveDefs=o?()=>("function"==typeof o?o():o).map(pc):null,r.pipeDefs=i?()=>("function"==typeof i?i():i).map(gc):null,r})}function hc(e,t,n){const r=e.\u0275cmp;r.directiveDefs=()=>t.map(pc),r.pipeDefs=()=>n.map(gc)}function pc(e){return Pe(e)||function(e){return e[zs]||null}(e)}function gc(e){return function(e){return e[Ys]||null}(e)}const mc={};function Js(e){return $t(()=>{const t={type:e.type,bootstrap:e.bootstrap||te,declarations:e.declarations||te,imports:e.imports||te,exports:e.exports||te,transitiveCompileScopes:null,schemas:e.schemas||null,id:e.id||null};return null!=e.id&&(mc[e.id]=e.type),t})}function _c(e,t){return $t(()=>{const n=Ge(e,!0);n.declarations=t.declarations||te,n.imports=t.imports||te,n.exports=t.exports||te})}function yc(e,t){if(null==e)return mn;const n={};for(const r in e)if(e.hasOwnProperty(r)){let o=e[r],s=o;Array.isArray(o)&&(s=o[1],o=o[0]),n[o]=r,t&&(t[o]=s)}return n}const Ec=Zs;function bc(e){return{type:e.type,name:e.name,factory:null,pure:!1!==e.pure,onDestroy:e.type.prototype.ngOnDestroy||null}}function Pe(e){return e[Mo]||null}function Ge(e,t){const n=e[fc]||null;if(!n&&!0===t)throw new Error(`Type ${D(e)} does not have '\u0275mod' property.`);return n}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const K=11;
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function _t(e){return Array.isArray(e)&&"object"==typeof e[1]}function rt(e){return Array.isArray(e)&&!0===e[1]}function ti(e){return 0!=(8&e.flags)}function Po(e){return 2==(2&e.flags)}function Ao(e){return 1==(1&e.flags)}function ot(e){return null!==e.template}function Um(e){return 0!=(512&e[2])}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function nn(e,t){return e.hasOwnProperty(Pt)?e[Pt]:null}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class Ic{constructor(t,n,r){this.previousValue=t,this.currentValue=n,this.firstChange=r}isFirstChange(){return this.firstChange}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ri(){return vc}function vc(e){return e.type.prototype.ngOnChanges&&(e.setInput=Km),Gm}function Gm(){const e=wc(this),t=null==e?void 0:e.current;if(t){const n=e.previous;if(n===mn)e.previous=t;else for(let r in t)n[r]=t[r];e.current=null,this.ngOnChanges(t)}}function Km(e,t,n,r){const o=wc(e)||function(e,t){return e[Dc]=t}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(e,{previous:mn,current:null}),s=o.current||(o.current={}),i=o.previous,l=this.declaredInputs[n],a=i[l];s[l]=new Ic(a&&a.currentValue,t,i===mn),e[r]=t}ri.ngInherit=!0;const Dc="__ngSimpleChanges__";function wc(e){return e[Dc]||null}const Tc="http://www.w3.org/2000/svg";
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+let si;function Ym(e){si=e}function ii(){return void 0!==si?si:"undefined"!=typeof document?document:void 0}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ce(e){return!!e.listen}const xc={createRenderer:(e,t)=>ii()};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function me(e){for(;Array.isArray(e);)e=e[0];return e}function Oo(e,t){return me(t[e])}function ze(e,t){return me(t[e.index])}function li(e,t){return e.data[t]}function Cn(e,t){return e[t]}function $e(e,t){const n=t[e];return _t(n)?n:n[0]}function Nc(e){return 4==(4&e[2])}function ai(e){return 128==(128&e[2])}function Ut(e,t){return null==t?null:e[t]}function Rc(e){e[18]=0}function ci(e,t){e[5]+=t;let n=e,r=e[3];for(;null!==r&&(1===t&&1===n[5]||-1===t&&0===n[5]);)r[5]+=t,n=r,r=r[3]
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */}const U={lFrame:jc(null),bindingsEnabled:!0,isInCheckNoChangesMode:!1};function Pc(){return U.bindingsEnabled}function v(){return U.lFrame.lView}function J(){return U.lFrame.tView}function Ac(e){return U.lFrame.contextLView=e,e[8]}function _e(){let e=Oc();for(;null!==e&&64===e.type;)e=e.parent;return e}function Oc(){return U.lFrame.currentTNode}function yt(e,t){const n=U.lFrame;n.currentTNode=e,n.isParent=t}function ui(){return U.lFrame.isParent}function di(){U.lFrame.isParent=!1}function So(){return U.isInCheckNoChangesMode}function Vo(e){U.isInCheckNoChangesMode=e}function Ae(){const e=U.lFrame;let t=e.bindingRootIndex;return-1===t&&(t=e.bindingRootIndex=e.tView.bindingStartIndex),t}function Et(){return U.lFrame.bindingIndex}function In(){return U.lFrame.bindingIndex++}function At(e){const t=U.lFrame,n=t.bindingIndex;return t.bindingIndex=t.bindingIndex+e,n}function a_(e,t){const n=U.lFrame;n.bindingIndex=n.bindingRootIndex=e,fi(t)}function fi(e){U.lFrame.currentDirectiveIndex=e}function kc(){return U.lFrame.currentQueryIndex}function pi(e){U.lFrame.currentQueryIndex=e}function u_(e){const t=e[1];return 2===t.type?t.declTNode:1===t.type?e[6]:null}function Lc(e,t,n){if(n&H.SkipSelf){let o=t,s=e;for(;!(o=o.parent,null!==o||n&H.Host||(o=u_(s),null===o||(s=s[15],10&o.type))););if(null===o)return!1;t=o,e=s}const r=U.lFrame=Fc();return r.currentTNode=t,r.lView=e,!0}function ko(e){const t=Fc(),n=e[1];U.lFrame=t,t.currentTNode=n.firstChild,t.lView=e,t.tView=n,t.contextLView=e,t.bindingIndex=n.bindingStartIndex,t.inI18n=!1}function Fc(){const e=U.lFrame,t=null===e?null:e.child;return null===t?jc(e):t}function jc(e){const t={currentTNode:null,isParent:!0,lView:null,tView:null,selectedIndex:-1,contextLView:null,elementDepthCount:0,currentNamespace:null,currentDirectiveIndex:-1,bindingRootIndex:-1,bindingIndex:-1,currentQueryIndex:0,parent:e,child:null,inI18n:!1};return null!==e&&(e.child=t),t}function Hc(){const e=U.lFrame;return U.lFrame=e.parent,e.currentTNode=null,e.lView=null,e}const $c=Hc;function Lo(){const e=Hc();e.isParent=!0,e.tView=null,e.selectedIndex=-1,e.contextLView=null,e.elementDepthCount=0,e.currentDirectiveIndex=-1,e.currentNamespace=null,e.bindingRootIndex=-1,e.bindingIndex=-1,e.currentQueryIndex=0}function Oe(){return U.lFrame.selectedIndex}function Wt(e){U.lFrame.selectedIndex=e}function ue(){const e=U.lFrame;return li(e.tView,e.selectedIndex)}function Bc(){U.lFrame.currentNamespace=Tc}function Uc(){U.lFrame.currentNamespace=null}function Fo(e,t){for(let n=t.directiveStart,r=t.directiveEnd;n<r;n++){const s=e.data[n].type.prototype,{ngAfterContentInit:i,ngAfterContentChecked:l,ngAfterViewInit:a,ngAfterViewChecked:c,ngOnDestroy:u}=s;i&&(e.contentHooks||(e.contentHooks=[])).push(-n,i),l&&((e.contentHooks||(e.contentHooks=[])).push(n,l),(e.contentCheckHooks||(e.contentCheckHooks=[])).push(n,l)),a&&(e.viewHooks||(e.viewHooks=[])).push(-n,a),c&&((e.viewHooks||(e.viewHooks=[])).push(n,c),(e.viewCheckHooks||(e.viewCheckHooks=[])).push(n,c)),null!=u&&(e.destroyHooks||(e.destroyHooks=[])).push(n,u)}}function jo(e,t,n){Wc(e,t,3,n)}function Ho(e,t,n,r){(3&e[2])===n&&Wc(e,t,n,r)}function gi(e,t){let n=e[2];(3&n)===t&&(n&=2047,n+=1,e[2]=n)}function Wc(e,t,n,r){const s=null!=r?r:-1,i=t.length-1;let l=0;for(let a=void 0!==r?65535&e[18]:0;a<i;a++)if("number"==typeof t[a+1]){if(l=t[a],null!=r&&l>=r)break}else t[a]<0&&(e[18]+=65536),(l<s||-1==s)&&(__(e,n,t,a),e[18]=(4294901760&e[18])+a+2),a++}function __(e,t,n,r){const o=n[r]<0,s=n[r+1],l=e[o?-n[r]:n[r]];if(o){if(e[2]>>11<e[18]>>16&&(3&e[2])===t){e[2]+=2048;try{s.call(l)}finally{}}}else try{s.call(l)}finally{}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class Tr{constructor(t,n,r){this.factory=t,this.resolving=!1,this.canSeeViewProviders=n,this.injectImpl=r}}function $o(e,t,n){const r=ce(e);let o=0;for(;o<n.length;){const s=n[o];if("number"==typeof s){if(0!==s)break;o++;const i=n[o++],l=n[o++],a=n[o++];r?e.setAttribute(t,l,a,i):t.setAttributeNS(i,l,a)}else{const i=s,l=n[++o];_i(i)?r&&e.setProperty(t,i,l):r?e.setAttribute(t,i,l):t.setAttribute(i,l),o++}}return o}function Qc(e){return 3===e||4===e||6===e}function _i(e){return 64===e.charCodeAt(0)}function Bo(e,t){if(null!==t&&0!==t.length)if(null===e||0===e.length)e=t.slice();else{let n=-1;for(let r=0;r<t.length;r++){const o=t[r];"number"==typeof o?n=o:0===n||Gc(e,n,o,null,-1===n||2===n?t[++r]:null)}}return e}function Gc(e,t,n,r,o){let s=0,i=e.length;if(-1===t)i=-1;else for(;s<e.length;){const l=e[s++];if("number"==typeof l){if(l===t){i=-1;break}if(l>t){i=s-1;break}}}for(;s<e.length;){const l=e[s];if("number"==typeof l)break;if(l===n){if(null===r)return void(null!==o&&(e[s+1]=o));if(r===e[s+1])return void(e[s+2]=o)}s++,null!==r&&s++,null!==o&&s++}-1!==i&&(e.splice(i,0,t),s=i+1),e.splice(s++,0,n),null!==r&&e.splice(s++,0,r),null!==o&&e.splice(s++,0,o)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Kc(e){return-1!==e}function vn(e){return 32767&e}function Dn(e,t){let n=function(e){return e>>16}(e),r=t;for(;n>0;)r=r[15],n--;return r}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let yi=!0;function Uo(e){const t=yi;return yi=e,t}let v_=0;function xr(e,t){const n=bi(e,t);if(-1!==n)return n;const r=t[1];r.firstCreatePass&&(e.injectorIndex=t.length,Ei(r.data,e),Ei(t,null),Ei(r.blueprint,null));const o=Wo(e,t),s=e.injectorIndex;if(Kc(o)){const i=vn(o),l=Dn(o,t),a=l[1].data;for(let c=0;c<8;c++)t[s+c]=l[i+c]|a[i+c]}return t[s+8]=o,s}function Ei(e,t){e.push(0,0,0,0,0,0,0,0,t)}function bi(e,t){return-1===e.injectorIndex||e.parent&&e.parent.injectorIndex===e.injectorIndex||null===t[e.injectorIndex+8]?-1:e.injectorIndex}function Wo(e,t){if(e.parent&&-1!==e.parent.injectorIndex)return e.parent.injectorIndex;let n=0,r=null,o=t;for(;null!==o;){const s=o[1],i=s.type;if(r=2===i?s.declTNode:1===i?o[6]:null,null===r)return-1;if(n++,o=o[15],-1!==r.injectorIndex)return r.injectorIndex|n<<16}return-1}function Qo(e,t,n){!function(e,t,n){let r;"string"==typeof n?r=n.charCodeAt(0)||0:n.hasOwnProperty(Cr)&&(r=n[Cr]),null==r&&(r=n[Cr]=v_++);const o=255&r;t.data[e+(o>>5)]|=1<<o}(e,t,n)}function Yc(e,t,n){if(n&H.Optional)return e;wo(t,"NodeInjector")}function Zc(e,t,n,r){if(n&H.Optional&&void 0===r&&(r=null),0==(n&(H.Self|H.Host))){const o=e[9],s=Ht(void 0);try{return o?o.get(t,r,n&H.Optional):dc(t,r,n&H.Optional)}finally{Ht(s)}}return Yc(r,t,n)}function Jc(e,t,n,r=H.Default,o){if(null!==e){const s=function(e){if("string"==typeof e)return e.charCodeAt(0)||0;const t=e.hasOwnProperty(Cr)?e[Cr]:void 0;return"number"==typeof t?t>=0?255&t:T_:t}(n);if("function"==typeof s){if(!Lc(t,e,r))return r&H.Host?Yc(o,n,r):Zc(t,n,r,o);try{const i=s(r);if(null!=i||r&H.Optional)return i;wo(n)}finally{$c()}}else if("number"==typeof s){let i=null,l=bi(e,t),a=-1,c=r&H.Host?t[16][6]:null;for((-1===l||r&H.SkipSelf)&&(a=-1===l?Wo(e,t):t[l+8],-1!==a&&tu(r,!1)?(i=t[1],l=vn(a),t=Dn(a,t)):l=-1);-1!==l;){const u=t[1];if(eu(s,l,u.data)){const d=M_(l,t,n,i,r,c);if(d!==Xc)return d}a=t[l+8],-1!==a&&tu(r,t[1].data[l+8]===c)&&eu(s,l,t)?(i=u,l=vn(a),t=Dn(a,t)):l=-1}}}return Zc(t,n,r,o)}const Xc={};function T_(){return new wn(_e(),v())}function M_(e,t,n,r,o,s){const i=t[1],l=i.data[e+8],u=Go(l,i,n,null==r?Po(l)&&yi:r!=i&&0!=(3&l.type),o&H.Host&&s===l);return null!==u?Nr(t,i,u,l):Xc}function Go(e,t,n,r,o){const s=e.providerIndexes,i=t.data,l=1048575&s,a=e.directiveStart,u=s>>20,f=o?l+u:e.directiveEnd;for(let h=r?l:l+u;h<f;h++){const p=i[h];if(h<a&&n===p||h>=a&&p.type===n)return h}if(o){const h=i[a];if(h&&ot(h)&&h.type===n)return a}return null}function Nr(e,t,n,r){let o=e[n];const s=t.data;if(function(e){return e instanceof Tr}(o)){const i=o;i.resolving&&function(e,t){throw new $("200",`Circular dependency in DI detected for ${e}`)}(oe(s[n]));const l=Uo(i.canSeeViewProviders);i.resolving=!0;const a=i.injectImpl?Ht(i.injectImpl):null;Lc(e,r,H.Default);try{o=e[n]=i.factory(void 0,s,e,r),t.firstCreatePass&&n>=r.directiveStart&&
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(e,t,n){const{ngOnChanges:r,ngOnInit:o,ngDoCheck:s}=t.type.prototype;if(r){const i=vc(t);(n.preOrderHooks||(n.preOrderHooks=[])).push(e,i),(n.preOrderCheckHooks||(n.preOrderCheckHooks=[])).push(e,i)}o&&(n.preOrderHooks||(n.preOrderHooks=[])).push(0-e,o),s&&((n.preOrderHooks||(n.preOrderHooks=[])).push(e,s),(n.preOrderCheckHooks||(n.preOrderCheckHooks=[])).push(e,s))}(n,s[n],t)}finally{null!==a&&Ht(a),Uo(l),i.resolving=!1,$c()}}return o}function eu(e,t,n){return!!(n[t+(e>>5)]&1<<e)}function tu(e,t){return!(e&H.Self||e&H.Host&&t)}class wn{constructor(t,n){this._tNode=t,this._lView=n}get(t,n){return Jc(this._tNode,this._lView,t,void 0,n)}}function nu(e){return $t(()=>{const t=e.prototype.constructor,n=t[Pt]||Ci(t),r=Object.prototype;let o=Object.getPrototypeOf(e.prototype).constructor;for(;o&&o!==r;){const s=o[Pt]||Ci(o);if(s&&s!==n)return s;o=Object.getPrototypeOf(o)}return s=>new s})}function Ci(e){return O(e)?()=>{const t=Ci(_(e));return t&&t()}:nn(e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Ii(e){return function(e,t){if("class"===t)return e.classes;if("style"===t)return e.styles;const n=e.attrs;if(n){const r=n.length;let o=0;for(;o<r;){const s=n[o];if(Qc(s))break;if(0===s)o+=2;else if("number"==typeof s)for(o++;o<r&&"string"==typeof n[o];)o++;else{if(s===t)return n[o+1];o+=2}}}return null}(_e(),e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const Mn="__parameters__",xn="__prop__metadata__";function vi(e){return function(...n){if(e){const r=e(...n);for(const o in r)this[o]=r[o]}}}function rn(e,t,n){return $t(()=>{const r=vi(t);function o(...s){if(this instanceof o)return r.apply(this,s),this;const i=new o(...s);return l.annotation=i,l;function l(a,c,u){const d=a.hasOwnProperty(Mn)?a[Mn]:Object.defineProperty(a,Mn,{value:[]})[Mn];for(;d.length<=u;)d.push(null);return(d[u]=d[u]||[]).push(i),a}}return n&&(o.prototype=Object.create(n.prototype)),o.prototype.ngMetadataName=e,o.annotationCls=o,o})}function ru(e,t,n,r){return $t(()=>{const o=vi(t);function s(...i){if(this instanceof s)return o.apply(this,i),this;const l=new s(...i);return function(c,u){const d=c.constructor,f=d.hasOwnProperty(xn)?d[xn]:Object.defineProperty(d,xn,{value:{}})[xn];f[u]=f.hasOwnProperty(u)&&f[u]||[],f[u].unshift(l),r&&r(c,u,...i)}}return n&&(s.prototype=Object.create(n.prototype)),s.prototype.ngMetadataName=e,s.annotationCls=s,s})}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class de{constructor(t,n){this._desc=t,this.ngMetadataName="InjectionToken",this.\u0275prov=void 0,"number"==typeof n?this.__NG_ELEMENT_ID__=n:void 0!==n&&(this.\u0275prov=Ce({token:this,providedIn:n.providedIn||"root",factory:n.factory}))}toString(){return`InjectionToken ${this._desc}`}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const P_=new de("AnalyzeForEntryComponents"),Ko=Function;function Ye(e,t){void 0===t&&(t=e);for(let n=0;n<e.length;n++){let r=e[n];Array.isArray(r)?(t===e&&(t=e.slice(0,n)),Ye(r,t)):t!==e&&t.push(r)}return t}function bt(e,t){e.forEach(n=>Array.isArray(n)?bt(n,t):t(n))}function zo(e,t,n){t>=e.length?e.push(n):e.splice(t,0,n)}function on(e,t){return t>=e.length-1?e.pop():e.splice(t,1)[0]}function Gt(e,t){const n=[];for(let r=0;r<e;r++)n.push(t);return n}function Be(e,t,n){let r=Nn(e,t);return r>=0?e[1|r]=n:(r=~r,function(e,t,n,r){let o=e.length;if(o==t)e.push(n,r);else if(1===o)e.push(r,e[0]),e[0]=n;else{for(o--,e.push(e[o-1],e[o]);o>t;)e[o]=e[o-2],o--;e[t]=n,e[t+1]=r}}(e,r,t,n)),r}function Di(e,t){const n=Nn(e,t);if(n>=0)return e[1|n]}function Nn(e,t){return function(e,t,n){let r=0,o=e.length>>n;for(;o!==r;){const s=r+(o-r>>1),i=e[s<<n];if(t===i)return s<<n;i>t?o=s:r=s+1}return~(o<<n)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(e,t,1)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Or={},Ti="__NG_DI_FLAG__",Rn="ngTempTokenPath",$_=/\n/gm,Mi="__source",xi=C({provide:String,useValue:C});let Sr;function Pn(e){const t=Sr;return Sr=e,t}function U_(e,t=H.Default){if(void 0===Sr)throw new Error("inject() must be called from an injection context");return null===Sr?dc(e,void 0,t):Sr.get(e,t&H.Optional?null:void 0,t)}function ge(e,t=H.Default){return(qs||U_)(_(e),t)}const W_=ge;function sn(e){const t=[];for(let n=0;n<e.length;n++){const r=_(e[n]);if(Array.isArray(r)){if(0===r.length)throw new Error("Arguments array must have arguments.");let o,s=H.Default;for(let i=0;i<r.length;i++){const l=r[i],a=Q_(l);"number"==typeof a?-1===a?o=l.token:s|=a:o=l}t.push(ge(o,s))}else t.push(ge(r))}return t}function Vr(e,t){return e[Ti]=t,e.prototype[Ti]=t,e}function Q_(e){return e[Ti]}function cu(e,t,n,r){const o=e[Rn];throw t[Mi]&&o.unshift(t[Mi]),e.message=function(e,t,n,r=null){e=e&&"\n"===e.charAt(0)&&"\u0275"==e.charAt(1)?e.substr(2):e;let o=D(t);if(Array.isArray(t))o=t.map(D).join(" -> ");else if("object"==typeof t){let s=[];for(let i in t)if(t.hasOwnProperty(i)){let l=t[i];s.push(i+":"+("string"==typeof l?JSON.stringify(l):D(l)))}o=`{${s.join(", ")}}`}return`${n}${r?"("+r+")":""}[${o}]: ${e.replace($_,"\n  ")}`}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */("\n"+e.message,o,n,r),e.ngTokenPath=o,e[Rn]=null,e}const An=Vr(rn("Inject",e=>({token:e})),-1),Ot=Vr(rn("Optional"),8),kr=Vr(rn("Self"),2),Kt=Vr(rn("SkipSelf"),4);
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+let Jo,Xo;function Sn(e){var t;return(null===(t=function(){if(void 0===Jo&&(Jo=null,ae.trustedTypes))try{Jo=ae.trustedTypes.createPolicy("angular",{createHTML:e=>e,createScript:e=>e,createScriptURL:e=>e})}catch(e){}return Jo}())||void 0===t?void 0:t.createHTML(e))||e}function Pi(){if(void 0===Xo&&(Xo=null,ae.trustedTypes))try{Xo=ae.trustedTypes.createPolicy("angular#unsafe-bypass",{createHTML:e=>e,createScript:e=>e,createScriptURL:e=>e})}catch(e){}return Xo}function pu(e){var t;return(null===(t=Pi())||void 0===t?void 0:t.createHTML(e))||e}function mu(e){var t;return(null===(t=Pi())||void 0===t?void 0:t.createScriptURL(e))||e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class ln{constructor(t){this.changingThisBreaksApplicationSecurity=t}toString(){return`SafeValue must use [property]=binding: ${this.changingThisBreaksApplicationSecurity} (see https://g.co/ng/security#xss)`}}class ny extends ln{getTypeName(){return"HTML"}}class ry extends ln{getTypeName(){return"Style"}}class oy extends ln{getTypeName(){return"Script"}}class sy extends ln{getTypeName(){return"URL"}}class iy extends ln{getTypeName(){return"ResourceURL"}}function St(e){return e instanceof ln?e.changingThisBreaksApplicationSecurity:e}function Vn(e,t){const n=_u(e);if(null!=n&&n!==t){if("ResourceURL"===n&&"URL"===t)return!0;throw new Error(`Required a safe ${t}, got a ${n} (see https://g.co/ng/security#xss)`)}return n===t}function _u(e){return e instanceof ln&&e.getTypeName()||null}function ly(e){return new ny(e)}function ay(e){return new ry(e)}function cy(e){return new oy(e)}function uy(e){return new sy(e)}function dy(e){return new iy(e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class fy{constructor(t){this.inertDocumentHelper=t}getInertBodyElement(t){t="<body><remove></remove>"+t;try{const n=(new window.DOMParser).parseFromString(Sn(t),"text/html").body;return null===n?this.inertDocumentHelper.getInertBodyElement(t):(n.removeChild(n.firstChild),n)}catch(n){return null}}}class hy{constructor(t){if(this.defaultDoc=t,this.inertDocument=this.defaultDoc.implementation.createHTMLDocument("sanitization-inert"),null==this.inertDocument.body){const n=this.inertDocument.createElement("html");this.inertDocument.appendChild(n);const r=this.inertDocument.createElement("body");n.appendChild(r)}}getInertBodyElement(t){const n=this.inertDocument.createElement("template");if("content"in n)return n.innerHTML=Sn(t),n;const r=this.inertDocument.createElement("body");return r.innerHTML=Sn(t),this.defaultDoc.documentMode&&this.stripCustomNsAttrs(r),r}stripCustomNsAttrs(t){const n=t.attributes;for(let o=n.length-1;0<o;o--){const i=n.item(o).name;("xmlns:ns1"===i||0===i.indexOf("ns1:"))&&t.removeAttribute(i)}let r=t.firstChild;for(;r;)r.nodeType===Node.ELEMENT_NODE&&this.stripCustomNsAttrs(r),r=r.nextSibling}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const gy=/^(?:(?:https?|mailto|ftp|tel|file|sms):|[^&:/?#]*(?:[/?#]|$))/gi,my=/^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[a-z0-9+\/]+=*$/i;function Fr(e){return(e=String(e)).match(gy)||e.match(my)?e:"unsafe:"+e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Ct(e){const t={};for(const n of e.split(","))t[n]=!0;return t}function jr(...e){const t={};for(const n of e)for(const r in n)n.hasOwnProperty(r)&&(t[r]=!0);return t}const bu=Ct("area,br,col,hr,img,wbr"),Cu=Ct("colgroup,dd,dt,li,p,tbody,td,tfoot,th,thead,tr"),Iu=Ct("rp,rt"),Ai=jr(bu,jr(Cu,Ct("address,article,aside,blockquote,caption,center,del,details,dialog,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5,h6,header,hgroup,hr,ins,main,map,menu,nav,ol,pre,section,summary,table,ul")),jr(Iu,Ct("a,abbr,acronym,audio,b,bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,picture,q,ruby,rp,rt,s,samp,small,source,span,strike,strong,sub,sup,time,track,tt,u,var,video")),jr(Iu,Cu)),Oi=Ct("background,cite,href,itemtype,longdesc,poster,src,xlink:href"),Si=Ct("srcset"),vu=jr(Oi,Si,Ct("abbr,accesskey,align,alt,autoplay,axis,bgcolor,border,cellpadding,cellspacing,class,clear,color,cols,colspan,compact,controls,coords,datetime,default,dir,download,face,headers,height,hidden,hreflang,hspace,ismap,itemscope,itemprop,kind,label,lang,language,loop,media,muted,nohref,nowrap,open,preload,rel,rev,role,rows,rowspan,rules,scope,scrolling,shape,size,sizes,span,srclang,start,summary,tabindex,target,title,translate,type,usemap,valign,value,vspace,width"),Ct("aria-activedescendant,aria-atomic,aria-autocomplete,aria-busy,aria-checked,aria-colcount,aria-colindex,aria-colspan,aria-controls,aria-current,aria-describedby,aria-details,aria-disabled,aria-dropeffect,aria-errormessage,aria-expanded,aria-flowto,aria-grabbed,aria-haspopup,aria-hidden,aria-invalid,aria-keyshortcuts,aria-label,aria-labelledby,aria-level,aria-live,aria-modal,aria-multiline,aria-multiselectable,aria-orientation,aria-owns,aria-placeholder,aria-posinset,aria-pressed,aria-readonly,aria-relevant,aria-required,aria-roledescription,aria-rowcount,aria-rowindex,aria-rowspan,aria-selected,aria-setsize,aria-sort,aria-valuemax,aria-valuemin,aria-valuenow,aria-valuetext")),_y=Ct("script,style,template");class yy{constructor(){this.sanitizedSomething=!1,this.buf=[]}sanitizeChildren(t){let n=t.firstChild,r=!0;for(;n;)if(n.nodeType===Node.ELEMENT_NODE?r=this.startElement(n):n.nodeType===Node.TEXT_NODE?this.chars(n.nodeValue):this.sanitizedSomething=!0,r&&n.firstChild)n=n.firstChild;else for(;n;){n.nodeType===Node.ELEMENT_NODE&&this.endElement(n);let o=this.checkClobberedElement(n,n.nextSibling);if(o){n=o;break}n=this.checkClobberedElement(n,n.parentNode)}return this.buf.join("")}startElement(t){const n=t.nodeName.toLowerCase();if(!Ai.hasOwnProperty(n))return this.sanitizedSomething=!0,!_y.hasOwnProperty(n);this.buf.push("<"),this.buf.push(n);const r=t.attributes;for(let o=0;o<r.length;o++){const s=r.item(o),i=s.name,l=i.toLowerCase();if(!vu.hasOwnProperty(l)){this.sanitizedSomething=!0;continue}let a=s.value;Oi[l]&&(a=Fr(a)),Si[l]&&(e=a,a=(e=String(e)).split(",").map(t=>Fr(t.trim())).join(", ")),this.buf.push(" ",i,'="',Du(a),'"')}var e;return this.buf.push(">"),!0}endElement(t){const n=t.nodeName.toLowerCase();Ai.hasOwnProperty(n)&&!bu.hasOwnProperty(n)&&(this.buf.push("</"),this.buf.push(n),this.buf.push(">"))}chars(t){this.buf.push(Du(t))}checkClobberedElement(t,n){if(n&&(t.compareDocumentPosition(n)&Node.DOCUMENT_POSITION_CONTAINED_BY)===Node.DOCUMENT_POSITION_CONTAINED_BY)throw new Error(`Failed to sanitize html because the element is clobbered: ${t.outerHTML}`);return n}}const Ey=/[\uD800-\uDBFF][\uDC00-\uDFFF]/g,by=/([^\#-~ |!])/g;function Du(e){return e.replace(/&/g,"&amp;").replace(Ey,function(t){return"&#"+(1024*(t.charCodeAt(0)-55296)+(t.charCodeAt(1)-56320)+65536)+";"}).replace(by,function(t){return"&#"+t.charCodeAt(0)+";"}).replace(/</g,"&lt;").replace(/>/g,"&gt;")}let es;function wu(e,t){let n=null;try{es=es||function(e){const t=new hy(e);return function(){try{return!!(new window.DOMParser).parseFromString(Sn(""),"text/html")}catch(e){return!1}}()?new fy(t):t}(e);let r=t?String(t):"";n=es.getInertBodyElement(r);let o=5,s=r;do{if(0===o)throw new Error("Failed to sanitize html because the input is unstable");o--,r=s,s=n.innerHTML,n=es.getInertBodyElement(r)}while(r!==s);return Sn((new yy).sanitizeChildren(Vi(n)||n))}finally{if(n){const r=Vi(n)||n;for(;r.firstChild;)r.removeChild(r.firstChild)}}}function Vi(e){return"content"in e&&function(e){return e.nodeType===Node.ELEMENT_NODE&&"TEMPLATE"===e.nodeName}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(e)?e.content:null}var fe=(()=>((fe=fe||{})[fe.NONE=0]="NONE",fe[fe.HTML=1]="HTML",fe[fe.STYLE=2]="STYLE",fe[fe.SCRIPT=3]="SCRIPT",fe[fe.URL=4]="URL",fe[fe.RESOURCE_URL=5]="RESOURCE_URL",fe))();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Tu(e){const t=Hr();return t?pu(t.sanitize(fe.HTML,e)||""):Vn(e,"HTML")?pu(St(e)):wu(ii(),F(e))}function ki(e){const t=Hr();return t?t.sanitize(fe.URL,e)||"":Vn(e,"URL")?St(e):Fr(F(e))}function Li(e){const t=Hr();if(t)return mu(t.sanitize(fe.RESOURCE_URL,e)||"");if(Vn(e,"ResourceURL"))return mu(St(e));throw new Error("unsafe value used in a resource URL context (see https://g.co/ng/security#xss)")}function Hr(){const e=v();return e&&e[12]}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const xu="__ngContext__";function Me(e,t){e[xu]=t}function ji(e){const t=function(e){return e[xu]||null}(e);return t?Array.isArray(t)?t:t.lView:null}function ts(e){return e.ngOriginalError}function Ly(e,...t){e.error(...t)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class kn{constructor(){this._console=console}handleError(t){const n=this._findOriginalError(t),r=this._findContext(t),o=(e=t)&&e.ngErrorLogger||Ly;var e;o(this._console,"ERROR",t),n&&o(this._console,"ORIGINAL ERROR",n),r&&o(this._console,"ERROR CONTEXT",r)}_findContext(t){return t?t.ngDebugContext||this._findContext(ts(t)):null}_findOriginalError(t){let n=t&&ts(t);for(;n&&ts(n);)n=ts(n);return n||null}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Lu=(()=>("undefined"!=typeof requestAnimationFrame&&requestAnimationFrame||setTimeout).bind(ae))();function Fu(e){return e.ownerDocument.defaultView}function It(e){return e instanceof Function?e():e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+var vt=(()=>((vt=vt||{})[vt.Important=1]="Important",vt[vt.DashCase=2]="DashCase",vt))();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Bi(e,t){return undefined(e,t)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Br(e){const t=e[3];return rt(t)?t[3]:t}function Ui(e){return Uu(e[13])}function Wi(e){return Uu(e[4])}function Uu(e){for(;null!==e&&!rt(e);)e=e[4];return e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Fn(e,t,n,r,o){if(null!=r){let s,i=!1;rt(r)?s=r:_t(r)&&(i=!0,r=r[0]);const l=me(r);0===e&&null!==n?null==o?zu(t,n,l):an(t,n,l,o||null,!0):1===e&&null!==n?an(t,n,l,o||null,!0):2===e?function(e,t,n){const r=rs(e,t);r&&function(e,t,n,r){ce(e)?e.removeChild(t,n,r):t.removeChild(n)}(e,r,t,n)}(t,l,i):3===e&&t.destroyNode(l),null!=s&&function(e,t,n,r,o){const s=n[7];s!==me(n)&&Fn(t,e,r,s,o);for(let l=10;l<n.length;l++){const a=n[l];Ur(a[1],a,e,t,r,s)}}(t,e,s,n,o)}}function Gi(e,t,n){return ce(e)?e.createElement(t,n):null===n?e.createElement(t):e.createElementNS(n,t)}function Qu(e,t){const n=e[9],r=n.indexOf(t),o=t[3];1024&t[2]&&(t[2]&=-1025,ci(o,-1)),n.splice(r,1)}function Ki(e,t){if(e.length<=10)return;const n=10+t,r=e[n];if(r){const o=r[17];null!==o&&o!==e&&Qu(o,r),t>0&&(e[n-1][4]=r[4]);const s=on(e,10+t);!function(e,t){Ur(e,t,t[K],2,null,null),t[0]=null,t[6]=null}(r[1],r);const i=s[19];null!==i&&i.detachView(s[1]),r[3]=null,r[4]=null,r[2]&=-129}return r}function Gu(e,t){if(!(256&t[2])){const n=t[K];ce(n)&&n.destroyNode&&Ur(e,t,n,3,null,null),function(e){let t=e[13];if(!t)return qi(e[1],e);for(;t;){let n=null;if(_t(t))n=t[13];else{const r=t[10];r&&(n=r)}if(!n){for(;t&&!t[4]&&t!==e;)_t(t)&&qi(t[1],t),t=t[3];null===t&&(t=e),_t(t)&&qi(t[1],t),n=t&&t[4]}t=n}}(t)}}function qi(e,t){if(!(256&t[2])){t[2]&=-129,t[2]|=256,function(e,t){let n;if(null!=e&&null!=(n=e.destroyHooks))for(let r=0;r<n.length;r+=2){const o=t[n[r]];if(!(o instanceof Tr)){const s=n[r+1];if(Array.isArray(s))for(let i=0;i<s.length;i+=2){const l=o[s[i]],a=s[i+1];try{a.call(l)}finally{}}else try{s.call(o)}finally{}}}}(e,t),function(e,t){const n=e.cleanup,r=t[7];let o=-1;if(null!==n)for(let s=0;s<n.length-1;s+=2)if("string"==typeof n[s]){const i=n[s+1],l="function"==typeof i?i(t):me(t[i]),a=r[o=n[s+2]],c=n[s+3];"boolean"==typeof c?l.removeEventListener(n[s],a,c):c>=0?r[o=c]():r[o=-c].unsubscribe(),s+=2}else{const i=r[o=n[s+1]];n[s].call(i)}if(null!==r){for(let s=o+1;s<r.length;s++)r[s]();t[7]=null}}(e,t),1===t[1].type&&ce(t[K])&&t[K].destroy();const n=t[17];if(null!==n&&rt(t[3])){n!==t[3]&&Qu(n,t);const r=t[19];null!==r&&r.detachView(e)}}}function Ku(e,t,n){return function(e,t,n){let r=t;for(;null!==r&&40&r.type;)r=(t=r).parent;if(null===r)return n[0];if(2&r.flags){const o=e.data[r.directiveStart].encapsulation;if(o===Ie.None||o===Ie.Emulated)return null}return ze(r,n)}(e,t.parent,n)}function an(e,t,n,r,o){ce(e)?e.insertBefore(t,n,r,o):t.insertBefore(n,r,o)}function zu(e,t,n){ce(e)?e.appendChild(t,n):t.appendChild(n)}function Yu(e,t,n,r,o){null!==r?an(e,t,n,r,o):zu(e,t,n)}function rs(e,t){return ce(e)?e.parentNode(t):t.parentNode}function Zu(e,t,n){return Xu(e,t,n)}let Xu=function(e,t,n){return 40&e.type?ze(e,n):null};function os(e,t,n,r){const o=Ku(e,r,t),s=t[K],l=Zu(r.parent||t[6],r,t);if(null!=o)if(Array.isArray(n))for(let a=0;a<n.length;a++)Yu(s,o,n[a],l,!1);else Yu(s,o,n,l,!1)}function ss(e,t){if(null!==t){const n=t.type;if(3&n)return ze(t,e);if(4&n)return Yi(-1,e[t.index]);if(8&n){const r=t.child;if(null!==r)return ss(e,r);{const o=e[t.index];return rt(o)?Yi(-1,o):me(o)}}if(32&n)return Bi(t,e)()||me(e[t.index]);{const r=td(e,t);return null!==r?Array.isArray(r)?r[0]:ss(Br(e[16]),r):ss(e,t.next)}}return null}function td(e,t){return null!==t?e[16][6].projection[t.projection]:null}function Yi(e,t){const n=10+e+1;if(n<t.length){const r=t[n],o=r[1].firstChild;if(null!==o)return ss(r,o)}return t[7]}function Zi(e,t,n,r,o,s,i){for(;null!=n;){const l=r[n.index],a=n.type;if(i&&0===t&&(l&&Me(me(l),r),n.flags|=4),64!=(64&n.flags))if(8&a)Zi(e,t,n.child,r,o,s,!1),Fn(t,e,o,l,s);else if(32&a){const c=Bi(n,r);let u;for(;u=c();)Fn(t,e,o,u,s);Fn(t,e,o,l,s)}else 16&a?rd(e,t,r,n,o,s):Fn(t,e,o,l,s);n=i?n.projectionNext:n.next}}function Ur(e,t,n,r,o,s){Zi(n,r,e.firstChild,t,o,s,!1)}function rd(e,t,n,r,o,s){const i=n[16],a=i[6].projection[r.projection];if(Array.isArray(a))for(let c=0;c<a.length;c++)Fn(t,e,o,a[c],s);else Zi(e,t,a,i[3],o,s,!0)}function od(e,t,n){ce(e)?e.setAttribute(t,"style",n):t.style.cssText=n}function Ji(e,t,n){ce(e)?""===n?e.removeAttribute(t,"class"):e.setAttribute(t,"class",n):t.className=n}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function sd(e,t,n){let r=e.length;for(;;){const o=e.indexOf(t,n);if(-1===o)return o;if(0===o||e.charCodeAt(o-1)<=32){const s=t.length;if(o+s===r||e.charCodeAt(o+s)<=32)return o}n=o+1}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const id="ng-template";function aE(e,t,n){let r=0;for(;r<e.length;){let o=e[r++];if(n&&"class"===o){if(o=e[r],-1!==sd(o.toLowerCase(),t,0))return!0}else if(1===o){for(;r<e.length&&"string"==typeof(o=e[r++]);)if(o.toLowerCase()===t)return!0;return!1}}return!1}function ld(e){return 4===e.type&&e.value!==id}function cE(e,t,n){return t===(4!==e.type||n?e.value:id)}function uE(e,t,n){let r=4;const o=e.attrs||[],s=function(e){for(let t=0;t<e.length;t++)if(Qc(e[t]))return t;return e.length}(o);let i=!1;for(let l=0;l<t.length;l++){const a=t[l];if("number"!=typeof a){if(!i)if(4&r){if(r=2|1&r,""!==a&&!cE(e,a,n)||""===a&&1===t.length){if(st(r))return!1;i=!0}}else{const c=8&r?a:t[++l];if(8&r&&null!==e.attrs){if(!aE(e.attrs,c,n)){if(st(r))return!1;i=!0}continue}const d=dE(8&r?"class":a,o,ld(e),n);if(-1===d){if(st(r))return!1;i=!0;continue}if(""!==c){let f;f=d>s?"":o[d+1].toLowerCase();const h=8&r?f:null;if(h&&-1!==sd(h,c,0)||2&r&&c!==f){if(st(r))return!1;i=!0}}}}else{if(!i&&!st(r)&&!st(a))return!1;if(i&&st(a))continue;i=!1,r=a|1&r}}return st(r)||i}function st(e){return 0==(1&e)}function dE(e,t,n,r){if(null===t)return-1;let o=0;if(r||!n){let s=!1;for(;o<t.length;){const i=t[o];if(i===e)return o;if(3===i||6===i)s=!0;else{if(1===i||2===i){let l=t[++o];for(;"string"==typeof l;)l=t[++o];continue}if(4===i)break;if(0===i){o+=4;continue}}o+=s?1:2}return-1}return function(e,t){let n=e.indexOf(4);if(n>-1)for(n++;n<e.length;){const r=e[n];if("number"==typeof r)return-1;if(r===t)return n;n++}return-1}(t,e)}function ad(e,t,n=!1){for(let r=0;r<t.length;r++)if(uE(e,t[r],n))return!0;return!1}function gE(e,t){e:for(let n=0;n<t.length;n++){const r=t[n];if(e.length===r.length){for(let o=0;o<e.length;o++)if(e[o]!==r[o])continue e;return!0}}return!1}function cd(e,t){return e?":not("+t.trim()+")":t}function mE(e){let t=e[0],n=1,r=2,o="",s=!1;for(;n<e.length;){let i=e[n];if("string"==typeof i)if(2&r){const l=e[++n];o+="["+i+(l.length>0?'="'+l+'"':"")+"]"}else 8&r?o+="."+i:4&r&&(o+=" "+i);else""!==o&&!st(i)&&(t+=cd(s,o),o=""),r=i,s=s||!st(r);n++}return""!==o&&(t+=cd(s,o)),t}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Q={};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ud(e){dd(J(),v(),Oe()+e,So())}function dd(e,t,n,r){if(!r)if(3==(3&t[2])){const s=e.preOrderCheckHooks;null!==s&&jo(t,s,n)}else{const s=e.preOrderHooks;null!==s&&Ho(t,s,0,n)}Wt(n)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function is(e,t){return e<<17|t<<2}function it(e){return e>>17&32767}function Xi(e){return 2|e}function Vt(e){return(131068&e)>>2}function el(e,t){return-131069&e|t<<2}function tl(e){return 1|e}function Cd(e,t){const n=e.contentQueries;if(null!==n)for(let r=0;r<n.length;r+=2){const o=n[r],s=n[r+1];if(-1!==s){const i=e.data[s];pi(o),i.contentQueries(2,t[s],s)}}}function Wr(e,t,n,r,o,s,i,l,a,c){const u=t.blueprint.slice();return u[0]=o,u[2]=140|r,Rc(u),u[3]=u[15]=e,u[8]=n,u[10]=i||e&&e[10],u[K]=l||e&&e[K],u[12]=a||e&&e[12]||null,u[9]=c||e&&e[9]||null,u[6]=s,u[16]=2==t.type?e[16]:u,u}function jn(e,t,n,r,o){let s=e.data[t];if(null===s)s=function(e,t,n,r,o){const s=Oc(),i=ui(),a=e.data[t]=function(e,t,n,r,o,s){return{type:n,index:r,insertBeforeIndex:null,injectorIndex:t?t.injectorIndex:-1,directiveStart:-1,directiveEnd:-1,directiveStylingLast:-1,propertyBindings:null,flags:0,providerIndexes:0,value:o,attrs:s,mergedAttrs:null,localNames:null,initialInputs:void 0,inputs:null,outputs:null,tViews:null,next:null,projectionNext:null,child:null,parent:t,projection:null,styles:null,stylesWithoutHost:null,residualStyles:void 0,classes:null,classesWithoutHost:null,residualClasses:void 0,classBindings:0,styleBindings:0}}(0,i?s:s&&s.parent,n,t,r,o);return null===e.firstChild&&(e.firstChild=a),null!==s&&(i?null==s.child&&null!==a.parent&&(s.child=a):null===s.next&&(s.next=a)),a}(e,t,n,r,o),U.lFrame.inI18n&&(s.flags|=64);else if(64&s.type){s.type=n,s.value=r,s.attrs=o;const i=function(){const e=U.lFrame,t=e.currentTNode;return e.isParent?t:t.parent}();s.injectorIndex=null===i?-1:i.injectorIndex}return yt(s,!0),s}function Hn(e,t,n,r){if(0===n)return-1;const o=t.length;for(let s=0;s<n;s++)t.push(r),e.blueprint.push(r),e.data.push(null);return o}function Qr(e,t,n){ko(t);try{const r=e.viewQuery;null!==r&&_l(1,r,n);const o=e.template;null!==o&&Id(e,t,o,1,n),e.firstCreatePass&&(e.firstCreatePass=!1),e.staticContentQueries&&Cd(e,t),e.staticViewQueries&&_l(2,e.viewQuery,n);const s=e.components;null!==s&&function(e,t){for(let n=0;n<t.length;n++)zE(e,t[n])}(t,s)}catch(r){throw e.firstCreatePass&&(e.incompleteFirstPass=!0,e.firstCreatePass=!1),r}finally{t[2]&=-5,Lo()}}function $n(e,t,n,r){const o=t[2];if(256==(256&o))return;ko(t);const s=So();try{Rc(t),function(e){U.lFrame.bindingIndex=e}(e.bindingStartIndex),null!==n&&Id(e,t,n,2,r);const i=3==(3&o);if(!s)if(i){const c=e.preOrderCheckHooks;null!==c&&jo(t,c,null)}else{const c=e.preOrderHooks;null!==c&&Ho(t,c,0,null),gi(t,0)}if(function(e){for(let t=Ui(e);null!==t;t=Wi(t)){if(!t[2])continue;const n=t[9];for(let r=0;r<n.length;r++){const o=n[r],s=o[3];0==(1024&o[2])&&ci(s,1),o[2]|=1024}}}(t),function(e){for(let t=Ui(e);null!==t;t=Wi(t))for(let n=10;n<t.length;n++){const r=t[n],o=r[1];ai(r)&&$n(o,r,o.template,r[8])}}(t),null!==e.contentQueries&&Cd(e,t),!s)if(i){const c=e.contentCheckHooks;null!==c&&jo(t,c)}else{const c=e.contentHooks;null!==c&&Ho(t,c,1),gi(t,1)}!function(e,t){const n=e.hostBindingOpCodes;if(null!==n)try{for(let r=0;r<n.length;r++){const o=n[r];if(o<0)Wt(~o);else{const s=o,i=n[++r],l=n[++r];a_(i,s),l(2,t[s])}}}finally{Wt(-1)}}(e,t);const l=e.components;null!==l&&function(e,t){for(let n=0;n<t.length;n++)qE(e,t[n])}(t,l);const a=e.viewQuery;if(null!==a&&_l(2,a,r),!s)if(i){const c=e.viewCheckHooks;null!==c&&jo(t,c)}else{const c=e.viewHooks;null!==c&&Ho(t,c,2),gi(t,2)}!0===e.firstUpdatePass&&(e.firstUpdatePass=!1),s||(t[2]&=-73),1024&t[2]&&(t[2]&=-1025,ci(t[3],-1))}finally{Lo()}}function NE(e,t,n,r){const o=t[10],s=!So(),i=Nc(t);try{s&&!i&&o.begin&&o.begin(),i&&Qr(e,t,r),$n(e,t,n,r)}finally{s&&!i&&o.end&&o.end()}}function Id(e,t,n,r,o){const s=Oe(),i=2&r;try{Wt(-1),i&&t.length>20&&dd(e,t,20,So()),n(r,o)}finally{Wt(s)}}function vd(e,t,n){if(ti(t)){const o=t.directiveEnd;for(let s=t.directiveStart;s<o;s++){const i=e.data[s];i.contentQueries&&i.contentQueries(1,n[s],s)}}}function cl(e,t,n){!Pc()||(function(e,t,n,r){const o=n.directiveStart,s=n.directiveEnd;e.firstCreatePass||xr(n,t),Me(r,t);const i=n.initialInputs;for(let l=o;l<s;l++){const a=e.data[l],c=ot(a);c&&UE(t,n,a);const u=Nr(t,e,l,n);Me(u,t),null!==i&&WE(0,l-o,u,a,0,i),c&&($e(n.index,t)[8]=u)}}(e,t,n,ze(n,t)),128==(128&n.flags)&&function(e,t,n){const r=n.directiveStart,o=n.directiveEnd,i=n.index,l=U.lFrame.currentDirectiveIndex;try{Wt(i);for(let a=r;a<o;a++){const c=e.data[a],u=t[a];fi(a),(null!==c.hostBindings||0!==c.hostVars||null!==c.hostAttrs)&&Pd(c,u)}}finally{Wt(-1),fi(l)}}(e,t,n))}function ul(e,t,n=ze){const r=t.localNames;if(null!==r){let o=t.index+1;for(let s=0;s<r.length;s+=2){const i=r[s+1],l=-1===i?n(t,e):e[i];e[o++]=l}}}function Dd(e){const t=e.tView;return null===t||t.incompleteFirstPass?e.tView=cs(1,null,e.template,e.decls,e.vars,e.directiveDefs,e.pipeDefs,e.viewQuery,e.schemas,e.consts):t}function cs(e,t,n,r,o,s,i,l,a,c){const u=20+r,d=u+o,f=function(e,t){const n=[];for(let r=0;r<t;r++)n.push(r<e?null:Q);return n}(u,d),h="function"==typeof c?c():c;return f[1]={type:e,blueprint:f,template:n,queries:null,viewQuery:l,declTNode:t,data:f.slice().fill(null,u),bindingStartIndex:u,expandoStartIndex:d,hostBindingOpCodes:null,firstCreatePass:!0,firstUpdatePass:!0,staticViewQueries:!1,staticContentQueries:!1,preOrderHooks:null,preOrderCheckHooks:null,contentHooks:null,contentCheckHooks:null,viewHooks:null,viewCheckHooks:null,destroyHooks:null,cleanup:null,contentQueries:null,components:null,directiveRegistry:"function"==typeof s?s():s,pipeRegistry:"function"==typeof i?i():i,firstChild:null,schemas:a,consts:h,incompleteFirstPass:!1}}function Md(e,t,n,r){const o=Ld(t);null===n?o.push(r):(o.push(n),e.firstCreatePass&&Fd(e).push(r,o.length-1))}function xd(e,t,n){for(let r in e)if(e.hasOwnProperty(r)){const o=e[r];(n=null===n?{}:n).hasOwnProperty(r)?n[r].push(t,o):n[r]=[t,o]}return n}function Ue(e,t,n,r,o,s,i,l){const a=ze(t,n);let u,c=t.inputs;!l&&null!=c&&(u=c[r])?($d(e,n,u,r,o),Po(t)&&function(e,t){const n=$e(t,e);16&n[2]||(n[2]|=64)}(n,t.index)):3&t.type&&(r=function(e){return"class"===e?"className":"for"===e?"htmlFor":"formaction"===e?"formAction":"innerHtml"===e?"innerHTML":"readonly"===e?"readOnly":"tabindex"===e?"tabIndex":e}(r),o=null!=i?i(o,t.value||"",r):o,ce(s)?s.setProperty(a,r,o):_i(r)||(a.setProperty?a.setProperty(r,o):a[r]=o))}function dl(e,t,n,r){let o=!1;if(Pc()){const s=function(e,t,n){const r=e.directiveRegistry;let o=null;if(r)for(let s=0;s<r.length;s++){const i=r[s];ad(n,i.selectors,!1)&&(o||(o=[]),Qo(xr(n,t),e,i.type),ot(i)?(Ad(e,n),o.unshift(i)):o.push(i))}return o}(e,t,n),i=null===r?null:{"":-1};if(null!==s){o=!0,Od(n,e.data.length,s.length);for(let u=0;u<s.length;u++){const d=s[u];d.providersResolver&&d.providersResolver(d)}let l=!1,a=!1,c=Hn(e,t,s.length,null);for(let u=0;u<s.length;u++){const d=s[u];n.mergedAttrs=Bo(n.mergedAttrs,d.hostAttrs),Sd(e,n,t,c,d),BE(c,d,i),null!==d.contentQueries&&(n.flags|=8),(null!==d.hostBindings||null!==d.hostAttrs||0!==d.hostVars)&&(n.flags|=128);const f=d.type.prototype;!l&&(f.ngOnChanges||f.ngOnInit||f.ngDoCheck)&&((e.preOrderHooks||(e.preOrderHooks=[])).push(n.index),l=!0),!a&&(f.ngOnChanges||f.ngDoCheck)&&((e.preOrderCheckHooks||(e.preOrderCheckHooks=[])).push(n.index),a=!0),c++}!function(e,t){const r=t.directiveEnd,o=e.data,s=t.attrs,i=[];let l=null,a=null;for(let c=t.directiveStart;c<r;c++){const u=o[c],d=u.inputs,f=null===s||ld(t)?null:QE(d,s);i.push(f),l=xd(d,c,l),a=xd(u.outputs,c,a)}null!==l&&(l.hasOwnProperty("class")&&(t.flags|=16),l.hasOwnProperty("style")&&(t.flags|=32)),t.initialInputs=i,t.inputs=l,t.outputs=a}(e,n)}i&&function(e,t,n){if(t){const r=e.localNames=[];for(let o=0;o<t.length;o+=2){const s=n[t[o+1]];if(null==s)throw new $("301",`Export of name '${t[o+1]}' not found!`);r.push(t[o],s)}}}(n,r,i)}return n.mergedAttrs=Bo(n.mergedAttrs,n.attrs),o}function Rd(e,t,n,r,o,s){const i=s.hostBindings;if(i){let l=e.hostBindingOpCodes;null===l&&(l=e.hostBindingOpCodes=[]);const a=~t.index;(function(e){let t=e.length;for(;t>0;){const n=e[--t];if("number"==typeof n&&n<0)return n}return 0})(l)!=a&&l.push(a),l.push(r,o,i)}}function Pd(e,t){null!==e.hostBindings&&e.hostBindings(1,t)}function Ad(e,t){t.flags|=2,(e.components||(e.components=[])).push(t.index)}function BE(e,t,n){if(n){if(t.exportAs)for(let r=0;r<t.exportAs.length;r++)n[t.exportAs[r]]=e;ot(t)&&(n[""]=e)}}function Od(e,t,n){e.flags|=1,e.directiveStart=t,e.directiveEnd=t+n,e.providerIndexes=t}function Sd(e,t,n,r,o){e.data[r]=o;const s=o.factory||(o.factory=nn(o.type)),i=new Tr(s,ot(o),null);e.blueprint[r]=i,n[r]=i,Rd(e,t,0,r,Hn(e,n,o.hostVars,Q),o)}function UE(e,t,n){const r=ze(t,e),o=Dd(n),s=e[10],i=us(e,Wr(e,o,null,n.onPush?64:16,r,t,s,s.createRenderer(r,n),null,null));e[t.index]=i}function Dt(e,t,n,r,o,s){const i=ze(e,t);!function(e,t,n,r,o,s,i){if(null==s)ce(e)?e.removeAttribute(t,o,n):t.removeAttribute(o);else{const l=null==i?F(s):i(s,r||"",o);ce(e)?e.setAttribute(t,o,l,n):n?t.setAttributeNS(n,o,l):t.setAttribute(o,l)}}(t[K],i,s,e.value,n,r,o)}function WE(e,t,n,r,o,s){const i=s[t];if(null!==i){const l=r.setInput;for(let a=0;a<i.length;){const c=i[a++],u=i[a++],d=i[a++];null!==l?r.setInput(n,d,c,u):n[u]=d}}}function QE(e,t){let n=null,r=0;for(;r<t.length;){const o=t[r];if(0!==o)if(5!==o){if("number"==typeof o)break;e.hasOwnProperty(o)&&(null===n&&(n=[]),n.push(o,e[o],t[r+1])),r+=2}else r+=2;else r+=4}return n}function Vd(e,t,n,r){return new Array(e,!0,!1,t,null,0,r,n,null,null)}function qE(e,t){const n=$e(t,e);if(ai(n)){const r=n[1];80&n[2]?$n(r,n,r.template,n[8]):n[5]>0&&hl(n)}}function hl(e){for(let r=Ui(e);null!==r;r=Wi(r))for(let o=10;o<r.length;o++){const s=r[o];if(1024&s[2]){const i=s[1];$n(i,s,i.template,s[8])}else s[5]>0&&hl(s)}const n=e[1].components;if(null!==n)for(let r=0;r<n.length;r++){const o=$e(n[r],e);ai(o)&&o[5]>0&&hl(o)}}function zE(e,t){const n=$e(t,e),r=n[1];(function(e,t){for(let n=t.length;n<e.blueprint.length;n++)t.push(e.blueprint[n])})(r,n),Qr(r,n,n[8])}function us(e,t){return e[13]?e[14][4]=t:e[13]=t,e[14]=t,t}function pl(e){for(;e;){e[2]|=64;const t=Br(e);if(Um(e)&&!t)return e;e=t}return null}function ml(e,t,n){const r=t[10];r.begin&&r.begin();try{$n(e,t,e.template,n)}catch(o){throw Hd(t,o),o}finally{r.end&&r.end()}}function kd(e){!function(e){for(let t=0;t<e.components.length;t++){const n=e.components[t],r=ji(n),o=r[1];NE(o,r,o.template,n)}}(e[8])}function _l(e,t,n){pi(0),t(e,n)}const eb=(()=>Promise.resolve(null))();function Ld(e){return e[7]||(e[7]=[])}function Fd(e){return e.cleanup||(e.cleanup=[])}function Hd(e,t){const n=e[9],r=n?n.get(kn,null):null;r&&r.handleError(t)}function $d(e,t,n,r,o){for(let s=0;s<n.length;){const i=n[s++],l=n[s++],a=t[i],c=e.data[i];null!==c.setInput?c.setInput(a,o,r,l):a[l]=o}}function Lt(e,t,n){const r=Oo(t,e);!function(e,t,n){ce(e)?e.setValue(t,n):t.textContent=n}(e[K],r,n)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ds(e,t,n){let r=n?e.styles:null,o=n?e.classes:null,s=0;if(null!==t)for(let i=0;i<t.length;i++){const l=t[i];"number"==typeof l?s=l:1==s?o=T(o,l):2==s&&(r=T(r,l+": "+t[++i]+";"))}n?e.styles=r:e.stylesWithoutHost=r,n?e.classes=o:e.classesWithoutHost=o}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Bn=new de("INJECTOR",-1);
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class Bd{get(t,n=Or){if(n===Or){const r=new Error(`NullInjectorError: No provider for ${D(t)}!`);throw r.name="NullInjectorError",r}return n}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const Gr=new de("Set Injector scope."),Kr={},rb={};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let yl;function Ud(){return void 0===yl&&(yl=new Bd),yl}function Wd(e,t=null,n=null,r){return new sb(e,n,t||Ud(),r)}class sb{constructor(t,n,r,o=null){this.parent=r,this.records=new Map,this.injectorDefTypes=new Set,this.onDestroy=new Set,this._destroyed=!1;const s=[];n&&bt(n,l=>this.processProvider(l,t,n)),bt([t],l=>this.processInjectorType(l,[],s)),this.records.set(Bn,Un(void 0,this));const i=this.records.get(Gr);this.scope=null!=i?i.value:null,this.source=o||("object"==typeof t?null:D(t))}get destroyed(){return this._destroyed}destroy(){this.assertNotDestroyed(),this._destroyed=!0;try{this.onDestroy.forEach(t=>t.ngOnDestroy())}finally{this.records.clear(),this.onDestroy.clear(),this.injectorDefTypes.clear()}}get(t,n=Or,r=H.Default){this.assertNotDestroyed();const o=Pn(this),s=Ht(void 0);try{if(!(r&H.SkipSelf)){let l=this.records.get(t);if(void 0===l){const a=("function"==typeof(e=t)||"object"==typeof e&&e instanceof de)&&Rt(t);l=a&&this.injectableDefInScope(a)?Un(El(t),Kr):null,this.records.set(t,l)}if(null!=l)return this.hydrate(t,l)}return(r&H.Self?Ud():this.parent).get(t,n=r&H.Optional&&n===Or?null:n)}catch(i){if("NullInjectorError"===i.name){if((i[Rn]=i[Rn]||[]).unshift(D(t)),o)throw i;return cu(i,t,"R3InjectorError",this.source)}throw i}finally{Ht(s),Pn(o)}var e;
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */}_resolveInjectorDefTypes(){this.injectorDefTypes.forEach(t=>this.get(t))}toString(){const t=[];return this.records.forEach((r,o)=>t.push(D(o))),`R3Injector[${t.join(", ")}]`}assertNotDestroyed(){if(this._destroyed)throw new Error("Injector has already been destroyed.")}processInjectorType(t,n,r){if(!(t=_(t)))return!1;let o=cc(t);const s=null==o&&t.ngModule||void 0,i=void 0===s?t:s,l=-1!==r.indexOf(i);if(void 0!==s&&(o=cc(s)),null==o)return!1;if(null!=o.imports&&!l){let u;r.push(i);try{bt(o.imports,d=>{this.processInjectorType(d,n,r)&&(void 0===u&&(u=[]),u.push(d))})}finally{}if(void 0!==u)for(let d=0;d<u.length;d++){const{ngModule:f,providers:h}=u[d];bt(h,p=>this.processProvider(p,f,h||te))}}this.injectorDefTypes.add(i);const a=nn(i)||(()=>new i);this.records.set(i,Un(a,Kr));const c=o.providers;if(null!=c&&!l){const u=t;bt(c,d=>this.processProvider(d,u,c))}return void 0!==s&&void 0!==t.providers}processProvider(t,n,r){let o=Wn(t=_(t))?t:_(t&&t.provide);const s=Gd(e=t)?Un(void 0,e.useValue):Un(Qd(e),Kr);var e;if(Wn(t)||!0!==t.multi)this.records.get(o);else{let i=this.records.get(o);i||(i=Un(void 0,Kr,!0),i.factory=()=>sn(i.multi),this.records.set(o,i)),o=t,i.multi.push(t)}this.records.set(o,s)}hydrate(t,n){return n.value===Kr&&(n.value=rb,n.value=n.factory()),"object"==typeof n.value&&n.value&&null!==(e=n.value)&&"object"==typeof e&&"function"==typeof e.ngOnDestroy&&this.onDestroy.add(n.value),n.value;var e}injectableDefInScope(t){if(!t.providedIn)return!1;const n=_(t.providedIn);return"string"==typeof n?"any"===n||n===this.scope:this.injectorDefTypes.has(n)}}function El(e){const t=Rt(e),n=null!==t?t.factory:nn(e);if(null!==n)return n;if(e instanceof de)throw new Error(`Token ${D(e)} is missing a \u0275prov definition.`);if(e instanceof Function)return function(e){const t=e.length;if(t>0){const r=Gt(t,"?");throw new Error(`Can't resolve all parameters for ${D(e)}: (${r.join(", ")}).`)}const n=function(e){const t=e&&(e[To]||e[uc]);if(t){const n=function(e){if(e.hasOwnProperty("name"))return e.name;const t=(""+e).match(/^function\s*([^\s(]+)/);return null===t?"":t[1]}(e);return console.warn(`DEPRECATED: DI is instantiating a token "${n}" that inherits its @Injectable decorator but does not provide one itself.\nThis will become an error in a future version of Angular. Please add @Injectable() to the "${n}" class.`),t}return null}(e);return null!==n?()=>n.factory(e):()=>new e}(e);throw new Error("unreachable")}function Qd(e,t,n){let r;if(Wn(e)){const o=_(e);return nn(o)||El(o)}if(Gd(e))r=()=>_(e.useValue);else if(function(e){return!(!e||!e.useFactory)}(e))r=()=>e.useFactory(...sn(e.deps||[]));else if(function(e){return!(!e||!e.useExisting)}(e))r=()=>ge(_(e.useExisting));else{const o=_(e&&(e.useClass||e.provide));if(!function(e){return!!e.deps}(e))return nn(o)||El(o);r=()=>new o(...sn(e.deps))}return r}function Un(e,t,n=!1){return{factory:e,value:t,multi:n?[]:void 0}}function Gd(e){return null!==e&&"object"==typeof e&&xi in e}function Wn(e){return"function"==typeof e}const Kd=function(e,t,n){return function(e,t=null,n=null,r){const o=Wd(e,t,n,r);return o._resolveInjectorDefTypes(),o}({name:n},t,e,n)};let ie=(()=>{class e{static create(n,r){return Array.isArray(n)?Kd(n,r,""):Kd(n.providers,n.parent,n.name||"")}}return e.THROW_IF_NOT_FOUND=Or,e.NULL=new Bd,e.\u0275prov=Ce({token:e,providedIn:"any",factory:()=>ge(Bn)}),e.__NG_ELEMENT_ID__=-1,e})();function Tb(e,t){Fo(ji(e)[1],_e())}function wl(e){let t=
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(e){return Object.getPrototypeOf(e.prototype).constructor}(e.type),n=!0;const r=[e];for(;t;){let o;if(ot(e))o=t.\u0275cmp||t.\u0275dir;else{if(t.\u0275cmp)throw new Error("Directives cannot inherit Components");o=t.\u0275dir}if(o){if(n){r.push(o);const i=e;i.inputs=Tl(e.inputs),i.declaredInputs=Tl(e.declaredInputs),i.outputs=Tl(e.outputs);const l=o.hostBindings;l&&Rb(e,l);const a=o.viewQuery,c=o.contentQueries;if(a&&xb(e,a),c&&Nb(e,c),k(e.inputs,o.inputs),k(e.declaredInputs,o.declaredInputs),k(e.outputs,o.outputs),ot(o)&&o.data.animation){const u=e.data;u.animation=(u.animation||[]).concat(o.data.animation)}}const s=o.features;if(s)for(let i=0;i<s.length;i++){const l=s[i];l&&l.ngInherit&&l(e),l===wl&&(n=!1)}}t=Object.getPrototypeOf(t)}!function(e){let t=0,n=null;for(let r=e.length-1;r>=0;r--){const o=e[r];o.hostVars=t+=o.hostVars,o.hostAttrs=Bo(o.hostAttrs,n=Bo(n,o.hostAttrs))}}(r)}function Tl(e){return e===mn?{}:e===te?[]:e}function xb(e,t){const n=e.viewQuery;e.viewQuery=n?(r,o)=>{t(r,o),n(r,o)}:t}function Nb(e,t){const n=e.contentQueries;e.contentQueries=n?(r,o,s)=>{t(r,o,s),n(r,o,s)}:t}function Rb(e,t){const n=e.hostBindings;e.hostBindings=n?(r,o)=>{t(r,o),n(r,o)}:t}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+let fs=null;function Qn(){if(!fs){const e=ae.Symbol;if(e&&e.iterator)fs=e.iterator;else{const t=Object.getOwnPropertyNames(Map.prototype);for(let n=0;n<t.length;++n){const r=t[n];"entries"!==r&&"size"!==r&&Map.prototype[r]===Map.prototype.entries&&(fs=r)}}}return fs}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class at{constructor(t){this.wrapped=t}static wrap(t){return new at(t)}static unwrap(t){return at.isWrapped(t)?t.wrapped:t}static isWrapped(t){return t instanceof at}}function zr(e){return!!Ml(e)&&(Array.isArray(e)||!(e instanceof Map)&&Qn()in e)}function Ml(e){return null!==e&&("function"==typeof e||"object"==typeof e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function wt(e,t,n){return e[t]=n}function Yr(e,t){return e[t]}function xe(e,t,n){return!Object.is(e[t],n)&&(e[t]=n,!0)}function cn(e,t,n,r){const o=xe(e,t,n);return xe(e,t+1,r)||o}function hs(e,t,n,r,o){const s=cn(e,t,n,r);return xe(e,t+2,o)||s}function Je(e,t,n,r,o,s){const i=cn(e,t,n,r);return cn(e,t+2,o,s)||i}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function xl(e,t,n,r){const o=v();return xe(o,In(),t)&&(J(),Dt(ue(),o,e,t,n,r)),xl}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Kn(e,t,n,r){return xe(e,In(),n)?t+F(n)+r:Q}function qn(e,t,n,r,o,s){const l=cn(e,Et(),n,o);return At(2),l?t+F(n)+r+F(o)+s:Q}function Cf(e,t,n,r,o,s,i,l){const a=v(),c=J(),u=e+20,d=c.firstCreatePass?
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(e,t,n,r,o,s,i,l,a){const c=t.consts,u=jn(t,e,4,i||null,Ut(c,l));dl(t,n,u,Ut(c,a)),Fo(t,u);const d=u.tViews=cs(2,u,r,o,s,t.directiveRegistry,t.pipeRegistry,null,t.schemas,c);return null!==t.queries&&(t.queries.template(t,u),d.queries=t.queries.embeddedTView(u)),u}(u,c,a,t,n,r,o,s,i):c.data[u];yt(d,!1);const f=a[K].createComment("");os(c,a,f,d),Me(f,a),us(a,a[u]=Vd(f,a,f,d)),Ao(d)&&cl(c,a,d),null!=i&&ul(a,d,l)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function If(e){return Cn(U.lFrame.contextLView,20+e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Zr(e,t=H.Default){const n=v();return null===n?ge(e,t):Jc(_e(),n,_(e),t)}function Sf(){throw new Error("invalid")}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Ol(e,t,n){const r=v();return xe(r,In(),t)&&Ue(J(),ue(),r,e,t,r[K],n,!1),Ol}function Sl(e,t,n,r,o){const i=o?"class":"style";$d(e,n,t.inputs[i],i,r)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Vl(e,t,n,r){const o=v(),s=J(),i=20+e,l=o[K],a=o[i]=Gi(l,t,U.lFrame.currentNamespace),c=s.firstCreatePass?function(e,t,n,r,o,s,i){const l=t.consts,c=jn(t,e,2,o,Ut(l,s));return dl(t,n,c,Ut(l,i)),null!==c.attrs&&ds(c,c.attrs,!1),null!==c.mergedAttrs&&ds(c,c.mergedAttrs,!0),null!==t.queries&&t.queries.elementStart(t,c),c}(i,s,o,0,t,n,r):s.data[i];yt(c,!0);const u=c.mergedAttrs;null!==u&&$o(l,a,u);const d=c.classes;null!==d&&Ji(l,a,d);const f=c.styles;null!==f&&od(l,a,f),64!=(64&c.flags)&&os(s,o,a,c),0===U.lFrame.elementDepthCount&&Me(a,o),U.lFrame.elementDepthCount++,Ao(c)&&(cl(s,o,c),vd(s,c,o)),null!==r&&ul(o,c)}function kl(){let e=_e();ui()?di():(e=e.parent,yt(e,!1));const t=e;U.lFrame.elementDepthCount--;const n=J();n.firstCreatePass&&(Fo(n,e),ti(e)&&n.queries.elementEnd(e)),null!=t.classesWithoutHost&&function(e){return 0!=(16&e.flags)}(t)&&Sl(n,t,v(),t.classesWithoutHost,!0),null!=t.stylesWithoutHost&&function(e){return 0!=(32&e.flags)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(t)&&Sl(n,t,v(),t.stylesWithoutHost,!1)}function Vf(e,t,n,r){Vl(e,t,n,r),kl()}function Ll(e,t,n){const r=v(),o=J(),s=e+20,i=o.firstCreatePass?
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(e,t,n,r,o){const s=t.consts,i=Ut(s,r),l=jn(t,e,8,"ng-container",i);return null!==i&&ds(l,i,!0),dl(t,n,l,Ut(s,o)),null!==t.queries&&t.queries.elementStart(t,l),l}(s,o,r,t,n):o.data[s];yt(i,!0);const l=r[s]=r[K].createComment("");os(o,r,l,i),Me(l,r),Ao(i)&&(cl(o,r,i),vd(o,i,r)),null!=n&&ul(r,i)}function Fl(){let e=_e();const t=J();ui()?di():(e=e.parent,yt(e,!1)),t.firstCreatePass&&(Fo(t,e),ti(e)&&t.queries.elementEnd(e))}function kf(e,t,n){Ll(e,t,n),Fl()}function Lf(){return v()}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function jl(e){return!!e&&"function"==typeof e.then}function Ff(e){return!!e&&"function"==typeof e.subscribe}const Hl=Ff;
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function $l(e,t,n,r){const o=v(),s=J(),i=_e();return function(e,t,n,r,o,s,i,l){const a=Ao(r),u=e.firstCreatePass&&Fd(e),d=t[8],f=Ld(t);let h=!0;if(3&r.type||l){const g=ze(r,t),w=l?l(g):g,I=f.length,L=l?B=>l(me(B[r.index])):r.index;if(ce(n)){let B=null;if(!l&&a&&(B=function(e,t,n,r){const o=e.cleanup;if(null!=o)for(let s=0;s<o.length-1;s+=2){const i=o[s];if(i===n&&o[s+1]===r){const l=t[7],a=o[s+2];return l.length>a?l[a]:null}"string"==typeof i&&(s+=2)}return null}(e,t,o,r.index)),null!==B)(B.__ngLastListenerFn__||B).__ngNextListenerFn__=s,B.__ngLastListenerFn__=s,h=!1;else{s=Bl(r,t,d,s,!1);const Z=n.listen(w,o,s);f.push(s,Z),u&&u.push(o,L,I,I+1)}}else s=Bl(r,t,d,s,!0),w.addEventListener(o,s,i),f.push(s),u&&u.push(o,L,I,i)}else s=Bl(r,t,d,s,!1);const p=r.outputs;let b;if(h&&null!==p&&(b=p[o])){const g=b.length;if(g)for(let w=0;w<g;w+=2){const be=t[b[w]][b[w+1]].subscribe(s),tt=f.length;f.push(s,be),u&&u.push(o,r.index,tt,-(tt+1))}}}(s,o,o[K],i,e,t,!!n,r),$l}function $f(e,t,n,r){try{return!1!==n(r)}catch(o){return Hd(e,o),!1}}function Bl(e,t,n,r,o){return function s(i){if(i===Function)return r;const l=2&e.flags?$e(e.index,t):t;0==(32&t[2])&&pl(l);let a=$f(t,0,r,i),c=s.__ngNextListenerFn__;for(;c;)a=$f(t,0,c,i)&&a,c=c.__ngNextListenerFn__;return o&&!1===a&&(i.preventDefault(),i.returnValue=!1),a}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Bf(e=1){return function(e){return(U.lFrame.contextLView=function(e,t){for(;e>0;)t=t[15],e--;return t}(e,U.lFrame.contextLView))[8]}(e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function cC(e,t){let n=null;const r=function(e){const t=e.attrs;if(null!=t){const n=t.indexOf(5);if(0==(1&n))return t[n+1]}return null}(e);for(let o=0;o<t.length;o++){const s=t[o];if("*"!==s){if(null===r?ad(e,s,!0):gE(r,s))return o}else n=o}return n}function Uf(e){const t=v()[16][6];if(!t.projection){const r=t.projection=Gt(e?e.length:1,null),o=r.slice();let s=t.child;for(;null!==s;){const i=e?cC(s,e):0;null!==i&&(o[i]?o[i].projectionNext=s:r[i]=s,o[i]=s),s=s.next}}}function Wf(e,t=0,n){const r=v(),o=J(),s=jn(o,20+e,16,null,n||null);null===s.projection&&(s.projection=t),di(),64!=(64&s.flags)&&function(e,t,n){rd(t[K],0,t,n,Ku(e,n,t),Zu(n.parent||t[6],n,t))}(o,r,s)}function Ul(e,t,n){return Wl(e,"",t,"",n),Ul}function Wl(e,t,n,r,o){const s=v(),i=Kn(s,t,n,r);return i!==Q&&Ue(J(),ue(),s,e,i,s[K],o,!1),Wl}function Xf(e,t,n,r,o){const s=e[n+1],i=null===t;let l=r?it(s):Vt(s),a=!1;for(;0!==l&&(!1===a||i);){const u=e[l+1];fC(e[l],t)&&(a=!0,e[l+1]=r?tl(u):Xi(u)),l=r?it(u):Vt(u)}a&&(e[n+1]=r?Xi(s):tl(s))}function fC(e,t){return null===e||null==t||(Array.isArray(e)?e[1]:e)===t||!(!Array.isArray(e)||"string"!=typeof t)&&Nn(e,t)>=0}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const Ee={textEnd:0,key:0,keyEnd:0,value:0,valueEnd:0};function eh(e){return e.substring(Ee.key,Ee.keyEnd)}function hC(e){return e.substring(Ee.value,Ee.valueEnd)}function th(e,t){const n=Ee.textEnd;return n===t?-1:(t=Ee.keyEnd=function(e,t,n){for(;t<n&&e.charCodeAt(t)>32;)t++;return t}(e,Ee.key=t,n),nr(e,t,n))}function nh(e,t){const n=Ee.textEnd;let r=Ee.key=nr(e,t,n);return n===r?-1:(r=Ee.keyEnd=function(e,t,n){let r;for(;t<n&&(45===(r=e.charCodeAt(t))||95===r||(-33&r)>=65&&(-33&r)<=90||r>=48&&r<=57);)t++;return t}(e,r,n),r=oh(e,r,n),r=Ee.value=nr(e,r,n),r=Ee.valueEnd=function(e,t,n){let r=-1,o=-1,s=-1,i=t,l=i;for(;i<n;){const a=e.charCodeAt(i++);if(59===a)return l;34===a||39===a?l=i=sh(e,a,i,n):t===i-4&&85===s&&82===o&&76===r&&40===a?l=i=sh(e,41,i,n):a>32&&(l=i),s=o,o=r,r=-33&a}return l}(e,r,n),oh(e,r,n))}function rh(e){Ee.key=0,Ee.keyEnd=0,Ee.value=0,Ee.valueEnd=0,Ee.textEnd=e.length}function nr(e,t,n){for(;t<n&&e.charCodeAt(t)<=32;)t++;return t}function oh(e,t,n,r){return(t=nr(e,t,n))<n&&t++,t}function sh(e,t,n,r){let o=-1,s=n;for(;s<r;){const i=e.charCodeAt(s++);if(i==t&&92!==o)return s;o=92==i&&92===o?0:i}throw new Error}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Ql(e,t,n){return ut(e,t,n,!1),Ql}function Gl(e,t){return ut(e,t,null,!0),Gl}function ct(e){dt(ch,EC,e,!1)}function EC(e,t){for(let n=function(e){return rh(e),nh(e,nr(e,0,Ee.textEnd))}(t);n>=0;n=nh(t,n))ch(e,eh(t),hC(t))}function ih(e){dt(Be,Tt,e,!0)}function Tt(e,t){for(let n=function(e){return rh(e),th(e,nr(e,0,Ee.textEnd))}(t);n>=0;n=th(t,n))Be(e,eh(t),!0)}function ut(e,t,n,r){const o=v(),s=J(),i=At(2);s.firstUpdatePass&&ah(s,e,i,r),t!==Q&&xe(o,i,t)&&uh(s,s.data[Oe()],o,o[K],e,o[i+1]=function(e,t){return null==e||("string"==typeof t?e+=t:"object"==typeof e&&(e=D(St(e)))),e}(t,n),r,i)}function dt(e,t,n,r){const o=J(),s=At(2);o.firstUpdatePass&&ah(o,null,s,r);const i=v();if(n!==Q&&xe(i,s,n)){const l=o.data[Oe()];if(fh(l,r)&&!lh(o,s)){let a=r?l.classesWithoutHost:l.stylesWithoutHost;null!==a&&(n=T(a,n||"")),Sl(o,l,i,n,r)}else!function(e,t,n,r,o,s,i,l){o===Q&&(o=te);let a=0,c=0,u=0<o.length?o[0]:null,d=0<s.length?s[0]:null;for(;null!==u||null!==d;){const f=a<o.length?o[a+1]:void 0,h=c<s.length?s[c+1]:void 0;let b,p=null;u===d?(a+=2,c+=2,f!==h&&(p=d,b=h)):null===d||null!==u&&u<d?(a+=2,p=u):(c+=2,p=d,b=h),null!==p&&uh(e,t,n,r,p,b,i,l),u=a<o.length?o[a]:null,d=c<s.length?s[c]:null}}(o,l,i,i[K],i[s+1],i[s+1]=function(e,t,n){if(null==n||""===n)return te;const r=[],o=St(n);if(Array.isArray(o))for(let s=0;s<o.length;s++)e(r,o[s],!0);else if("object"==typeof o)for(const s in o)o.hasOwnProperty(s)&&e(r,s,o[s]);else"string"==typeof o&&t(r,o);return r}(e,t,n),r,s)}}function lh(e,t){return t>=e.expandoStartIndex}function ah(e,t,n,r){const o=e.data;if(null===o[n+1]){const s=o[Oe()],i=lh(e,n);fh(s,r)&&null===t&&!i&&(t=!1),t=function(e,t,n,r){const o=function(e){const t=U.lFrame.currentDirectiveIndex;return-1===t?null:e[t]}(e);let s=r?t.residualClasses:t.residualStyles;if(null===o)0===(r?t.classBindings:t.styleBindings)&&(n=Jr(n=Kl(null,e,t,n,r),t.attrs,r),s=null);else{const i=t.directiveStylingLast;if(-1===i||e[i]!==o)if(n=Kl(o,e,t,n,r),null===s){let a=function(e,t,n){const r=n?t.classBindings:t.styleBindings;if(0!==Vt(r))return e[it(r)]}(e,t,r);void 0!==a&&Array.isArray(a)&&(a=Kl(null,e,t,a[1],r),a=Jr(a,t.attrs,r),function(e,t,n,r){e[it(n?t.classBindings:t.styleBindings)]=r}(e,t,r,a))}else s=function(e,t,n){let r;const o=t.directiveEnd;for(let s=1+t.directiveStylingLast;s<o;s++)r=Jr(r,e[s].hostAttrs,n);return Jr(r,t.attrs,n)}(e,t,r)}return void 0!==s&&(r?t.residualClasses=s:t.residualStyles=s),n}(o,s,t,r),function(e,t,n,r,o,s){let i=s?t.classBindings:t.styleBindings,l=it(i),a=Vt(i);e[r]=n;let u,c=!1;if(Array.isArray(n)){const d=n;u=d[1],(null===u||Nn(d,u)>0)&&(c=!0)}else u=n;if(o)if(0!==a){const f=it(e[l+1]);e[r+1]=is(f,l),0!==f&&(e[f+1]=el(e[f+1],r)),e[l+1]=function(e,t){return 131071&e|t<<17}(e[l+1],r)}else e[r+1]=is(l,0),0!==l&&(e[l+1]=el(e[l+1],r)),l=r;else e[r+1]=is(a,0),0===l?l=r:e[a+1]=el(e[a+1],r),a=r;c&&(e[r+1]=Xi(e[r+1])),Xf(e,u,r,!0),Xf(e,u,r,!1),function(e,t,n,r,o){const s=o?e.residualClasses:e.residualStyles;null!=s&&"string"==typeof t&&Nn(s,t)>=0&&(n[r+1]=tl(n[r+1]))}(t,u,e,r,s),i=is(l,a),s?t.classBindings=i:t.styleBindings=i}(o,s,t,n,i,r)}}function Kl(e,t,n,r,o){let s=null;const i=n.directiveEnd;let l=n.directiveStylingLast;for(-1===l?l=n.directiveStart:l++;l<i&&(s=t[l],r=Jr(r,s.hostAttrs,o),s!==e);)l++;return null!==e&&(n.directiveStylingLast=l),r}function Jr(e,t,n){const r=n?1:2;let o=-1;if(null!==t)for(let s=0;s<t.length;s++){const i=t[s];"number"==typeof i?o=i:o===r&&(Array.isArray(e)||(e=void 0===e?[]:["",e]),Be(e,i,!!n||t[++s]))}return void 0===e?null:e}function ch(e,t,n){Be(e,t,St(n))}function uh(e,t,n,r,o,s,i,l){if(!(3&t.type))return;const a=e.data,c=a[l+1];gs(function(e){return 1==(1&e)}(c)?dh(a,t,n,o,Vt(c),i):void 0)||(gs(s)||function(e){return 2==(2&e)}(c)&&(s=dh(a,null,n,o,l,i)),function(e,t,n,r,o){const s=ce(e);if(t)o?s?e.addClass(n,r):n.classList.add(r):s?e.removeClass(n,r):n.classList.remove(r);else{let i=-1===r.indexOf("-")?void 0:vt.DashCase;if(null==o)s?e.removeStyle(n,r,i):n.style.removeProperty(r);else{const l="string"==typeof o&&o.endsWith("!important");l&&(o=o.slice(0,-10),i|=vt.Important),s?e.setStyle(n,r,o,i):n.style.setProperty(r,o,l?"important":"")}}}(r,i,Oo(Oe(),n),o,s))}function dh(e,t,n,r,o,s){const i=null===t;let l;for(;o>0;){const a=e[o],c=Array.isArray(a),u=c?a[1]:a,d=null===u;let f=n[o+1];f===Q&&(f=d?te:void 0);let h=d?Di(f,r):u===r?f:void 0;if(c&&!gs(h)&&(h=Di(a,r)),gs(h)&&(l=h,i))return l;const p=e[o+1];o=i?it(p):Vt(p)}if(null!==t){let a=s?t.residualClasses:t.residualStyles;null!=a&&(l=Di(a,r))}return l}function gs(e){return void 0!==e}function fh(e,t){return 0!=(e.flags&(t?16:32))}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function hh(e,t=""){const n=v(),r=J(),o=e+20,s=r.firstCreatePass?jn(r,o,1,t,null):r.data[o],i=n[o]=function(e,t){return ce(e)?e.createText(t):e.createTextNode(t)}(n[K],t);os(r,n,i,s),yt(s,!1)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ql(e){return ms("",e,""),ql}function ms(e,t,n){const r=v(),o=Kn(r,e,t,n);return o!==Q&&Lt(r,Oe(),o),ms}function zl(e,t,n,r,o){const s=v(),i=qn(s,e,t,n,r,o);return i!==Q&&Lt(s,Oe(),i),zl}function Yl(e,t,n,r,o,s,i){const l=v(),a=function(e,t,n,r,o,s,i,l){const c=hs(e,Et(),n,o,i);return At(3),c?t+F(n)+r+F(o)+s+F(i)+l:Q}(l,e,t,n,r,o,s,i);return a!==Q&&Lt(l,Oe(),a),Yl}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function bh(e,t,n){dt(Be,Tt,Kn(v(),e,t,n),!0)}function Ch(e,t,n,r,o){dt(Be,Tt,qn(v(),e,t,n,r,o),!0)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Zl(e,t,n){const r=v();return xe(r,In(),t)&&Ue(J(),ue(),r,e,t,r[K],n,!0),Zl}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const un=void 0;var WC=["en",[["a","p"],["AM","PM"],un],[["AM","PM"],un,un],[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Su","Mo","Tu","We","Th","Fr","Sa"]],un,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],["January","February","March","April","May","June","July","August","September","October","November","December"]],un,[["B","A"],["BC","AD"],["Before Christ","Anno Domini"]],0,[6,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",un,"{1} 'at' {0}",un],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"USD","$","US Dollar",{},"ltr",function(e){const t=Math.floor(Math.abs(e)),n=e.toString().replace(/^[^.]*\.?/,"").length;return 1===t&&0===n?1:5}];
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let rr={};function QC(e,t,n){"string"!=typeof t&&(n=t,t=e[j.LocaleId]),t=t.toLowerCase().replace(/_/g,"-"),rr[t]=e,n&&(rr[t][j.ExtraData]=n)}function Jl(e){const t=function(e){return e.toLowerCase().replace(/_/g,"-")}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(e);let n=Oh(t);if(n)return n;const r=t.split("-")[0];if(n=Oh(r),n)return n;if("en"===r)return WC;throw new Error(`Missing locale data for the locale "${e}".`)}function Ah(e){return Jl(e)[j.PluralCase]}function Oh(e){return e in rr||(rr[e]=ae.ng&&ae.ng.common&&ae.ng.common.locales&&ae.ng.common.locales[e]),rr[e]}var j=(()=>((j=j||{})[j.LocaleId=0]="LocaleId",j[j.DayPeriodsFormat=1]="DayPeriodsFormat",j[j.DayPeriodsStandalone=2]="DayPeriodsStandalone",j[j.DaysFormat=3]="DaysFormat",j[j.DaysStandalone=4]="DaysStandalone",j[j.MonthsFormat=5]="MonthsFormat",j[j.MonthsStandalone=6]="MonthsStandalone",j[j.Eras=7]="Eras",j[j.FirstDayOfWeek=8]="FirstDayOfWeek",j[j.WeekendRange=9]="WeekendRange",j[j.DateFormat=10]="DateFormat",j[j.TimeFormat=11]="TimeFormat",j[j.DateTimeFormat=12]="DateTimeFormat",j[j.NumberSymbols=13]="NumberSymbols",j[j.NumberFormats=14]="NumberFormats",j[j.CurrencyCode=15]="CurrencyCode",j[j.CurrencySymbol=16]="CurrencySymbol",j[j.CurrencyName=17]="CurrencyName",j[j.Currencies=18]="Currencies",j[j.Directionality=19]="Directionality",j[j.PluralCase=20]="PluralCase",j[j.ExtraData=21]="ExtraData",j))();const _s="en-US";
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+let Sh=_s;function Xl(e){je(e,"Expected localeId to be defined"),"string"==typeof e&&(Sh=e.toLowerCase().replace(/_/g,"-"))}function na(e,t,n,r,o){if(e=_(e),Array.isArray(e))for(let s=0;s<e.length;s++)na(e[s],t,n,r,o);else{const s=J(),i=v();let l=Wn(e)?e:_(e.provide),a=Qd(e);const c=_e(),u=1048575&c.providerIndexes,d=c.directiveStart,f=c.providerIndexes>>20;if(Wn(e)||!e.multi){const h=new Tr(a,o,Zr),p=oa(l,t,o?u:u+f,d);-1===p?(Qo(xr(c,i),s,l),ra(s,e,t.length),t.push(l),c.directiveStart++,c.directiveEnd++,o&&(c.providerIndexes+=1048576),n.push(h),i.push(h)):(n[p]=h,i[p]=h)}else{const h=oa(l,t,u+f,d),p=oa(l,t,u,u+f),b=h>=0&&n[h],g=p>=0&&n[p];if(o&&!g||!o&&!b){Qo(xr(c,i),s,l);const w=function(e,t,n,r,o){const s=new Tr(e,n,Zr);return s.multi=[],s.index=t,s.componentProviders=0,op(s,o,r&&!n),s}(o?BI:$I,n.length,o,r,a);!o&&g&&(n[p].providerFactory=w),ra(s,e,t.length,0),t.push(l),c.directiveStart++,c.directiveEnd++,o&&(c.providerIndexes+=1048576),n.push(w),i.push(w)}else ra(s,e,h>-1?h:p,op(n[o?p:h],a,!o&&r));!o&&r&&g&&n[p].componentProviders++}}}function ra(e,t,n,r){const o=Wn(t);if(o||function(e){return!!e.useClass}(t)){const i=(t.useClass||t).prototype.ngOnDestroy;if(i){const l=e.destroyHooks||(e.destroyHooks=[]);if(!o&&t.multi){const a=l.indexOf(n);-1===a?l.push(n,[r,i]):l[a+1].push(r,i)}else l.push(n,i)}}}function op(e,t,n){return n&&e.componentProviders++,e.multi.push(t)-1}function oa(e,t,n,r){for(let o=n;o<r;o++)if(t[o]===e)return o;return-1}function $I(e,t,n,r){return sa(this.multi,[])}function BI(e,t,n,r){const o=this.multi;let s;if(this.providerFactory){const i=this.providerFactory.componentProviders,l=Nr(n,n[1],this.providerFactory.index,r);s=l.slice(0,i),sa(o,s);for(let a=i;a<l.length;a++)s.push(l[a])}else s=[],sa(o,s);return s}function sa(e,t){for(let n=0;n<e.length;n++)t.push((0,e[n])());return t}function sp(e,t=[]){return n=>{n.providersResolver=(r,o)=>
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(e,t,n){const r=J();if(r.firstCreatePass){const o=ot(e);na(n,r.data,r.blueprint,o,!0),na(t,r.data,r.blueprint,o,!1)}}(r,o?o(e):e,t)}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class ip{}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const ap="ngComponent";class QI{resolveComponentFactory(t){throw function(e){const t=Error(`No component factory found for ${D(e)}. Did you add it to @NgModule.entryComponents?`);return t[ap]=e,t}(t)}}let sr=(()=>{class e{}return e.NULL=new QI,e})();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function Is(...e){}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function ir(e,t){return new Mt(ze(e,t))}const qI=function(){return ir(_e(),v())};let Mt=(()=>{class e{constructor(n){this.nativeElement=n}}return e.__NG_ELEMENT_ID__=qI,e})();function cp(e){return e instanceof Mt?e.nativeElement:e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class vs{}let zI=(()=>{class e{}return e.__NG_ELEMENT_ID__=()=>ZI(),e})();const ZI=function(){const e=v(),n=$e(_e().index,e);return function(e){return e[K]}(_t(n)?n:e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */;let la=(()=>{class e{}
+/**
+       * @license
+       * Copyright Google LLC All Rights Reserved.
+       *
+       * Use of this source code is governed by an MIT-style license that can be
+       * found in the LICENSE file at https://angular.io/license
+       */
+return e.\u0275prov=Ce({token:e,providedIn:"root",factory:()=>null}),e})();class up{constructor(t){this.full=t,this.major=t.split(".")[0],this.minor=t.split(".")[1],this.patch=t.split(".").slice(2).join(".")}}const dp=new up("12.2.12");
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class fp{constructor(){}supports(t){return zr(t)}create(t){return new tv(t)}}const ev=(e,t)=>t;class tv{constructor(t){this.length=0,this._linkedRecords=null,this._unlinkedRecords=null,this._previousItHead=null,this._itHead=null,this._itTail=null,this._additionsHead=null,this._additionsTail=null,this._movesHead=null,this._movesTail=null,this._removalsHead=null,this._removalsTail=null,this._identityChangesHead=null,this._identityChangesTail=null,this._trackByFn=t||ev}forEachItem(t){let n;for(n=this._itHead;null!==n;n=n._next)t(n)}forEachOperation(t){let n=this._itHead,r=this._removalsHead,o=0,s=null;for(;n||r;){const i=!r||n&&n.currentIndex<pp(r,o,s)?n:r,l=pp(i,o,s),a=i.currentIndex;if(i===r)o--,r=r._nextRemoved;else if(n=n._next,null==i.previousIndex)o++;else{s||(s=[]);const c=l-o,u=a-o;if(c!=u){for(let f=0;f<c;f++){const h=f<s.length?s[f]:s[f]=0,p=h+f;u<=p&&p<c&&(s[f]=h+1)}s[i.previousIndex]=u-c}}l!==a&&t(i,l,a)}}forEachPreviousItem(t){let n;for(n=this._previousItHead;null!==n;n=n._nextPrevious)t(n)}forEachAddedItem(t){let n;for(n=this._additionsHead;null!==n;n=n._nextAdded)t(n)}forEachMovedItem(t){let n;for(n=this._movesHead;null!==n;n=n._nextMoved)t(n)}forEachRemovedItem(t){let n;for(n=this._removalsHead;null!==n;n=n._nextRemoved)t(n)}forEachIdentityChange(t){let n;for(n=this._identityChangesHead;null!==n;n=n._nextIdentityChange)t(n)}diff(t){if(null==t&&(t=[]),!zr(t))throw new Error(`Error trying to diff '${D(t)}'. Only arrays and iterables are allowed`);return this.check(t)?this:null}onDestroy(){}check(t){this._reset();let o,s,i,n=this._itHead,r=!1;if(Array.isArray(t)){this.length=t.length;for(let l=0;l<this.length;l++)s=t[l],i=this._trackByFn(l,s),null!==n&&Object.is(n.trackById,i)?(r&&(n=this._verifyReinsertion(n,s,i,l)),Object.is(n.item,s)||this._addIdentityChange(n,s)):(n=this._mismatch(n,s,i,l),r=!0),n=n._next}else o=0,function(e,t){if(Array.isArray(e))for(let n=0;n<e.length;n++)t(e[n]);else{const n=e[Qn()]();let r;for(;!(r=n.next()).done;)t(r.value)}}(t,l=>{i=this._trackByFn(o,l),null!==n&&Object.is(n.trackById,i)?(r&&(n=this._verifyReinsertion(n,l,i,o)),Object.is(n.item,l)||this._addIdentityChange(n,l)):(n=this._mismatch(n,l,i,o),r=!0),n=n._next,o++}),this.length=o;return this._truncate(n),this.collection=t,this.isDirty}get isDirty(){return null!==this._additionsHead||null!==this._movesHead||null!==this._removalsHead||null!==this._identityChangesHead}_reset(){if(this.isDirty){let t;for(t=this._previousItHead=this._itHead;null!==t;t=t._next)t._nextPrevious=t._next;for(t=this._additionsHead;null!==t;t=t._nextAdded)t.previousIndex=t.currentIndex;for(this._additionsHead=this._additionsTail=null,t=this._movesHead;null!==t;t=t._nextMoved)t.previousIndex=t.currentIndex;this._movesHead=this._movesTail=null,this._removalsHead=this._removalsTail=null,this._identityChangesHead=this._identityChangesTail=null}}_mismatch(t,n,r,o){let s;return null===t?s=this._itTail:(s=t._prev,this._remove(t)),null!==(t=null===this._unlinkedRecords?null:this._unlinkedRecords.get(r,null))?(Object.is(t.item,n)||this._addIdentityChange(t,n),this._reinsertAfter(t,s,o)):null!==(t=null===this._linkedRecords?null:this._linkedRecords.get(r,o))?(Object.is(t.item,n)||this._addIdentityChange(t,n),this._moveAfter(t,s,o)):t=this._addAfter(new nv(n,r),s,o),t}_verifyReinsertion(t,n,r,o){let s=null===this._unlinkedRecords?null:this._unlinkedRecords.get(r,null);return null!==s?t=this._reinsertAfter(s,t._prev,o):t.currentIndex!=o&&(t.currentIndex=o,this._addToMoves(t,o)),t}_truncate(t){for(;null!==t;){const n=t._next;this._addToRemovals(this._unlink(t)),t=n}null!==this._unlinkedRecords&&this._unlinkedRecords.clear(),null!==this._additionsTail&&(this._additionsTail._nextAdded=null),null!==this._movesTail&&(this._movesTail._nextMoved=null),null!==this._itTail&&(this._itTail._next=null),null!==this._removalsTail&&(this._removalsTail._nextRemoved=null),null!==this._identityChangesTail&&(this._identityChangesTail._nextIdentityChange=null)}_reinsertAfter(t,n,r){null!==this._unlinkedRecords&&this._unlinkedRecords.remove(t);const o=t._prevRemoved,s=t._nextRemoved;return null===o?this._removalsHead=s:o._nextRemoved=s,null===s?this._removalsTail=o:s._prevRemoved=o,this._insertAfter(t,n,r),this._addToMoves(t,r),t}_moveAfter(t,n,r){return this._unlink(t),this._insertAfter(t,n,r),this._addToMoves(t,r),t}_addAfter(t,n,r){return this._insertAfter(t,n,r),this._additionsTail=null===this._additionsTail?this._additionsHead=t:this._additionsTail._nextAdded=t,t}_insertAfter(t,n,r){const o=null===n?this._itHead:n._next;return t._next=o,t._prev=n,null===o?this._itTail=t:o._prev=t,null===n?this._itHead=t:n._next=t,null===this._linkedRecords&&(this._linkedRecords=new hp),this._linkedRecords.put(t),t.currentIndex=r,t}_remove(t){return this._addToRemovals(this._unlink(t))}_unlink(t){null!==this._linkedRecords&&this._linkedRecords.remove(t);const n=t._prev,r=t._next;return null===n?this._itHead=r:n._next=r,null===r?this._itTail=n:r._prev=n,t}_addToMoves(t,n){return t.previousIndex===n||(this._movesTail=null===this._movesTail?this._movesHead=t:this._movesTail._nextMoved=t),t}_addToRemovals(t){return null===this._unlinkedRecords&&(this._unlinkedRecords=new hp),this._unlinkedRecords.put(t),t.currentIndex=null,t._nextRemoved=null,null===this._removalsTail?(this._removalsTail=this._removalsHead=t,t._prevRemoved=null):(t._prevRemoved=this._removalsTail,this._removalsTail=this._removalsTail._nextRemoved=t),t}_addIdentityChange(t,n){return t.item=n,this._identityChangesTail=null===this._identityChangesTail?this._identityChangesHead=t:this._identityChangesTail._nextIdentityChange=t,t}}class nv{constructor(t,n){this.item=t,this.trackById=n,this.currentIndex=null,this.previousIndex=null,this._nextPrevious=null,this._prev=null,this._next=null,this._prevDup=null,this._nextDup=null,this._prevRemoved=null,this._nextRemoved=null,this._nextAdded=null,this._nextMoved=null,this._nextIdentityChange=null}}class rv{constructor(){this._head=null,this._tail=null}add(t){null===this._head?(this._head=this._tail=t,t._nextDup=null,t._prevDup=null):(this._tail._nextDup=t,t._prevDup=this._tail,t._nextDup=null,this._tail=t)}get(t,n){let r;for(r=this._head;null!==r;r=r._nextDup)if((null===n||n<=r.currentIndex)&&Object.is(r.trackById,t))return r;return null}remove(t){const n=t._prevDup,r=t._nextDup;return null===n?this._head=r:n._nextDup=r,null===r?this._tail=n:r._prevDup=n,null===this._head}}class hp{constructor(){this.map=new Map}put(t){const n=t.trackById;let r=this.map.get(n);r||(r=new rv,this.map.set(n,r)),r.add(t)}get(t,n){const o=this.map.get(t);return o?o.get(t,n):null}remove(t){const n=t.trackById;return this.map.get(n).remove(t)&&this.map.delete(n),t}get isEmpty(){return 0===this.map.size}clear(){this.map.clear()}}function pp(e,t,n){const r=e.previousIndex;if(null===r)return r;let o=0;return n&&r<n.length&&(o=n[r]),r+t+o
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */}class gp{constructor(){}supports(t){return t instanceof Map||Ml(t)}create(){return new ov}}class ov{constructor(){this._records=new Map,this._mapHead=null,this._appendAfter=null,this._previousMapHead=null,this._changesHead=null,this._changesTail=null,this._additionsHead=null,this._additionsTail=null,this._removalsHead=null,this._removalsTail=null}get isDirty(){return null!==this._additionsHead||null!==this._changesHead||null!==this._removalsHead}forEachItem(t){let n;for(n=this._mapHead;null!==n;n=n._next)t(n)}forEachPreviousItem(t){let n;for(n=this._previousMapHead;null!==n;n=n._nextPrevious)t(n)}forEachChangedItem(t){let n;for(n=this._changesHead;null!==n;n=n._nextChanged)t(n)}forEachAddedItem(t){let n;for(n=this._additionsHead;null!==n;n=n._nextAdded)t(n)}forEachRemovedItem(t){let n;for(n=this._removalsHead;null!==n;n=n._nextRemoved)t(n)}diff(t){if(t){if(!(t instanceof Map||Ml(t)))throw new Error(`Error trying to diff '${D(t)}'. Only maps and objects are allowed`)}else t=new Map;return this.check(t)?this:null}onDestroy(){}check(t){this._reset();let n=this._mapHead;if(this._appendAfter=null,this._forEach(t,(r,o)=>{if(n&&n.key===o)this._maybeAddToChanges(n,r),this._appendAfter=n,n=n._next;else{const s=this._getOrCreateRecordForKey(o,r);n=this._insertBeforeOrAppend(n,s)}}),n){n._prev&&(n._prev._next=null),this._removalsHead=n;for(let r=n;null!==r;r=r._nextRemoved)r===this._mapHead&&(this._mapHead=null),this._records.delete(r.key),r._nextRemoved=r._next,r.previousValue=r.currentValue,r.currentValue=null,r._prev=null,r._next=null}return this._changesTail&&(this._changesTail._nextChanged=null),this._additionsTail&&(this._additionsTail._nextAdded=null),this.isDirty}_insertBeforeOrAppend(t,n){if(t){const r=t._prev;return n._next=t,n._prev=r,t._prev=n,r&&(r._next=n),t===this._mapHead&&(this._mapHead=n),this._appendAfter=t,t}return this._appendAfter?(this._appendAfter._next=n,n._prev=this._appendAfter):this._mapHead=n,this._appendAfter=n,null}_getOrCreateRecordForKey(t,n){if(this._records.has(t)){const o=this._records.get(t);this._maybeAddToChanges(o,n);const s=o._prev,i=o._next;return s&&(s._next=i),i&&(i._prev=s),o._next=null,o._prev=null,o}const r=new sv(t);return this._records.set(t,r),r.currentValue=n,this._addToAdditions(r),r}_reset(){if(this.isDirty){let t;for(this._previousMapHead=this._mapHead,t=this._previousMapHead;null!==t;t=t._next)t._nextPrevious=t._next;for(t=this._changesHead;null!==t;t=t._nextChanged)t.previousValue=t.currentValue;for(t=this._additionsHead;null!=t;t=t._nextAdded)t.previousValue=t.currentValue;this._changesHead=this._changesTail=null,this._additionsHead=this._additionsTail=null,this._removalsHead=null}}_maybeAddToChanges(t,n){Object.is(n,t.currentValue)||(t.previousValue=t.currentValue,t.currentValue=n,this._addToChanges(t))}_addToAdditions(t){null===this._additionsHead?this._additionsHead=this._additionsTail=t:(this._additionsTail._nextAdded=t,this._additionsTail=t)}_addToChanges(t){null===this._changesHead?this._changesHead=this._changesTail=t:(this._changesTail._nextChanged=t,this._changesTail=t)}_forEach(t,n){t instanceof Map?t.forEach(n):Object.keys(t).forEach(r=>n(t[r],r))}}class sv{constructor(t){this.key=t,this.previousValue=null,this.currentValue=null,this._nextPrevious=null,this._next=null,this._prev=null,this._nextAdded=null,this._nextRemoved=null,this._nextChanged=null}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function mp(){return new Ds([new fp])}let Ds=(()=>{class e{constructor(n){this.factories=n}static create(n,r){if(null!=r){const o=r.factories.slice();n=n.concat(o)}return new e(n)}static extend(n){return{provide:e,useFactory:r=>e.create(n,r||mp()),deps:[[e,new Kt,new Ot]]}}find(n){const r=this.factories.find(o=>o.supports(n));if(null!=r)return r;throw new Error(`Cannot find a differ supporting object '${n}' of type '${function(e){return e.name||typeof e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(n)}'`)}}return e.\u0275prov=Ce({token:e,providedIn:"root",factory:mp}),e})();function _p(){return new ws([new gp])}let ws=(()=>{class e{constructor(n){this.factories=n}static create(n,r){if(r){const o=r.factories.slice();n=n.concat(o)}return new e(n)}static extend(n){return{provide:e,useFactory:r=>e.create(n,r||_p()),deps:[[e,new Kt,new Ot]]}}find(n){const r=this.factories.find(o=>o.supports(n));if(r)return r;throw new Error(`Cannot find a differ supporting object '${n}'`)}}
+/**
+       * @license
+       * Copyright Google LLC All Rights Reserved.
+       *
+       * Use of this source code is governed by an MIT-style license that can be
+       * found in the LICENSE file at https://angular.io/license
+       */
+return e.\u0275prov=Ce({token:e,providedIn:"root",factory:_p}),e})();function Ts(e,t,n,r,o=!1){for(;null!==n;){const s=t[n.index];if(null!==s&&r.push(me(s)),rt(s))for(let l=10;l<s.length;l++){const a=s[l],c=a[1].firstChild;null!==c&&Ts(a[1],a,c,r)}const i=n.type;if(8&i)Ts(e,t,n.child,r);else if(32&i){const l=Bi(n,t);let a;for(;a=l();)r.push(a)}else if(16&i){const l=td(t,n);if(Array.isArray(l))r.push(...l);else{const a=Br(t[16]);Ts(a[1],a,l,r,!0)}}n=o?n.projectionNext:n.next}return r}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class ro{constructor(t,n){this._lView=t,this._cdRefInjectingView=n,this._appRef=null,this._attachedToViewContainer=!1}get rootNodes(){const t=this._lView,n=t[1];return Ts(n,t,n.firstChild,[])}get context(){return this._lView[8]}set context(t){this._lView[8]=t}get destroyed(){return 256==(256&this._lView[2])}destroy(){if(this._appRef)this._appRef.detachView(this);else if(this._attachedToViewContainer){const t=this._lView[3];if(rt(t)){const n=t[8],r=n?n.indexOf(this):-1;r>-1&&(Ki(t,r),on(n,r))}this._attachedToViewContainer=!1}Gu(this._lView[1],this._lView)}onDestroy(t){Md(this._lView[1],this._lView,null,t)}markForCheck(){pl(this._cdRefInjectingView||this._lView)}detach(){this._lView[2]&=-129}reattach(){this._lView[2]|=128}detectChanges(){ml(this._lView[1],this._lView,this.context)}checkNoChanges(){!function(e,t,n){Vo(!0);try{ml(e,t,n)}finally{Vo(!1)}}(this._lView[1],this._lView,this.context)}attachToViewContainerRef(){if(this._appRef)throw new Error("This view is already attached directly to the ApplicationRef!");this._attachedToViewContainer=!0}detachFromAppRef(){var t;this._appRef=null,Ur(this._lView[1],t=this._lView,t[K],2,null,null)}attachToAppRef(t){if(this._attachedToViewContainer)throw new Error("This view is already attached to a ViewContainer!");this._appRef=t}}class lv extends ro{constructor(t){super(t),this._view=t}detectChanges(){kd(this._view)}checkNoChanges(){!function(e){Vo(!0);try{kd(e)}finally{Vo(!1)}}(this._view)}get context(){return null}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const cv=function(e){return function(e,t,n){if(Po(e)&&!n){const r=$e(e.index,t);return new ro(r,r)}return 47&e.type?new ro(t[16],t):null}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */(_e(),v(),16==(16&e))};let uv=(()=>{class e{}return e.__NG_ELEMENT_ID__=cv,e})();const hv=[new gp],gv=new Ds([new fp]),mv=new ws(hv),yv=function(){return Ms(_e(),v())};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let oo=(()=>{class e{}return e.__NG_ELEMENT_ID__=yv,e})();const Ev=oo,bv=class extends Ev{constructor(t,n,r){super(),this._declarationLView=t,this._declarationTContainer=n,this.elementRef=r}createEmbeddedView(t){const n=this._declarationTContainer.tViews,r=Wr(this._declarationLView,n,t,16,null,n.declTNode,null,null,null,null);r[17]=this._declarationLView[this._declarationTContainer.index];const s=this._declarationLView[19];return null!==s&&(r[19]=s.createEmbeddedView(n)),Qr(n,r,t),new ro(r)}};function Ms(e,t){return 4&e.type?new bv(t,e,ir(e,t)):null}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */class dn{}class yp{}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const vv=function(){return Cp(_e(),v())};let xs=(()=>{class e{}return e.__NG_ELEMENT_ID__=vv,e})();const wv=xs,Ep=class extends wv{constructor(t,n,r){super(),this._lContainer=t,this._hostTNode=n,this._hostLView=r}get element(){return ir(this._hostTNode,this._hostLView)}get injector(){return new wn(this._hostTNode,this._hostLView)}get parentInjector(){const t=Wo(this._hostTNode,this._hostLView);if(Kc(t)){const n=Dn(t,this._hostLView),r=vn(t);return new wn(n[1].data[r+8],n)}return new wn(null,this._hostLView)}clear(){for(;this.length>0;)this.remove(this.length-1)}get(t){const n=bp(this._lContainer);return null!==n&&n[t]||null}get length(){return this._lContainer.length-10}createEmbeddedView(t,n,r){const o=t.createEmbeddedView(n||{});return this.insert(o,r),o}createComponent(t,n,r,o,s){const i=r||this.parentInjector;if(!s&&null==t.ngModule&&i){const a=i.get(dn,null);a&&(s=a)}const l=t.create(i,o,void 0,s);return this.insert(l.hostView,n),l}insert(t,n){const r=t._lView,o=r[1];if(rt(r[3])){const u=this.indexOf(t);if(-1!==u)this.detach(u);else{const d=r[3],f=new Ep(d,d[6],d[3]);f.detach(f.indexOf(t))}}const s=this._adjustIndex(n),i=this._lContainer;!function(e,t,n,r){const o=10+r,s=n.length;r>0&&(n[o-1][4]=t),r<s-10?(t[4]=n[o],zo(n,10+r,t)):(n.push(t),t[4]=null),t[3]=n;const i=t[17];null!==i&&n!==i&&function(e,t){const n=e[9];t[16]!==t[3][3][16]&&(e[2]=!0),null===n?e[9]=[t]:n.push(t)}(i,t);const l=t[19];null!==l&&l.insertView(e),t[2]|=128}(o,r,i,s);const l=Yi(s,i),a=r[K],c=rs(a,i[7]);return null!==c&&function(e,t,n,r,o,s){r[0]=o,r[6]=t,Ur(e,r,n,1,o,s)}(o,i[6],a,r,c,l),t.attachToViewContainerRef(),zo(aa(i),s,t),t}move(t,n){return this.insert(t,n)}indexOf(t){const n=bp(this._lContainer);return null!==n?n.indexOf(t):-1}remove(t){const n=this._adjustIndex(t,-1),r=Ki(this._lContainer,n);r&&(on(aa(this._lContainer),n),Gu(r[1],r))}detach(t){const n=this._adjustIndex(t,-1),r=Ki(this._lContainer,n);return r&&null!=on(aa(this._lContainer),n)?new ro(r):null}_adjustIndex(t,n=0){return null==t?this.length+n:t}};function bp(e){return e[8]}function aa(e){return e[8]||(e[8]=[])}function Cp(e,t){let n;const r=t[e.index];if(rt(r))n=r;else{let o;if(8&e.type)o=me(r);else{const s=t[K];o=s.createComment("");const i=ze(e,t);an(s,rs(s,i),o,function(e,t){return ce(e)?e.nextSibling(t):t.nextSibling}(s,i),!1)}t[e.index]=n=Vd(r,t,o,e),us(t,n)}return new Ep(n,e,t)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const ur={};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class $p extends sr{constructor(t){super(),this.ngModule=t}resolveComponentFactory(t){const n=Pe(t);return new Up(n,this.ngModule)}}function Bp(e){const t=[];for(let n in e)e.hasOwnProperty(n)&&t.push({propName:e[n],templateName:n});return t}const CD=new de("SCHEDULER_TOKEN",{providedIn:"root",factory:()=>Lu});class Up extends ip{constructor(t,n){super(),this.componentDef=t,this.ngModule=n,this.componentType=t.type,this.selector=t.selectors.map(mE).join(","),this.ngContentSelectors=t.ngContentSelectors?t.ngContentSelectors:[],this.isBoundToModule=!!n}get inputs(){return Bp(this.componentDef.inputs)}get outputs(){return Bp(this.componentDef.outputs)}create(t,n,r,o){const s=(o=o||this.ngModule)?function(e,t){return{get:(n,r,o)=>{const s=e.get(n,ur,o);return s!==ur||r===ur?s:t.get(n,r,o)}}}(t,o.injector):t,i=s.get(vs,xc),l=s.get(la,null),a=i.createRenderer(null,this.componentDef),c=this.componentDef.selectors[0][0]||"div",u=r?function(e,t,n){if(ce(e))return e.selectRootElement(t,n===Ie.ShadowDom);let r="string"==typeof t?e.querySelector(t):t;return r.textContent="",r}(a,r,this.componentDef.encapsulation):Gi(i.createRenderer(null,this.componentDef),c,function(e){const t=e.toLowerCase();return"svg"===t?Tc:"math"===t?"http://www.w3.org/1998/MathML/":null}(c)),d=this.componentDef.onPush?576:528,f=function(e,t){return{components:[],scheduler:e||Lu,clean:eb,playerHandler:t||null,flags:0}}(),h=cs(0,null,null,1,0,null,null,null,null,null),p=Wr(null,h,f,d,null,null,i,a,l,s);let b,g;ko(p);try{const w=function(e,t,n,r,o,s){const i=n[1];n[20]=e;const a=jn(i,20,2,"#host",null),c=a.mergedAttrs=t.hostAttrs;null!==c&&(ds(a,c,!0),null!==e&&($o(o,e,c),null!==a.classes&&Ji(o,e,a.classes),null!==a.styles&&od(o,e,a.styles)));const u=r.createRenderer(e,t),d=Wr(n,Dd(t),null,t.onPush?64:16,n[20],a,r,u,s||null,null);return i.firstCreatePass&&(Qo(xr(a,n),i,t.type),Ad(i,a),Od(a,n.length,1)),us(n,d),n[20]=d}(u,this.componentDef,p,i,a);if(u)if(r)$o(a,u,["ng-version",dp.full]);else{const{attrs:I,classes:L}=function(e){const t=[],n=[];let r=1,o=2;for(;r<e.length;){let s=e[r];if("string"==typeof s)2===o?""!==s&&t.push(s,e[++r]):8===o&&n.push(s);else{if(!st(o))break;o=s}r++}return{attrs:t,classes:n}}(this.componentDef.selectors[0]);I&&$o(a,u,I),L&&L.length>0&&Ji(a,u,L.join(" "))}if(g=li(h,20),void 0!==n){const I=g.projection=[];for(let L=0;L<this.ngContentSelectors.length;L++){const B=n[L];I.push(null!=B?Array.from(B):null)}}b=function(e,t,n,r,o){const s=n[1],i=function(e,t,n){const r=_e();e.firstCreatePass&&(n.providersResolver&&n.providersResolver(n),Sd(e,r,t,Hn(e,t,1,null),n));const o=Nr(t,e,r.directiveStart,r);Me(o,t);const s=ze(r,t);return s&&Me(s,t),o}(s,n,t);if(r.components.push(i),e[8]=i,o&&o.forEach(a=>a(i,t)),t.contentQueries){const a=_e();t.contentQueries(1,i,a.directiveStart)}const l=_e();return!s.firstCreatePass||null===t.hostBindings&&null===t.hostAttrs||(Wt(l.index),Rd(n[1],l,0,l.directiveStart,l.directiveEnd,t),Pd(t,i)),i}(w,this.componentDef,p,f,[Tb]),Qr(h,p,null)}finally{Lo()}return new DD(this.componentType,b,ir(g,p),p,g)}}class DD extends class{}{constructor(t,n,r,o,s){super(),this.location=r,this._rootLView=o,this._tNode=s,this.instance=n,this.hostView=this.changeDetectorRef=new lv(o),this.componentType=t}get injector(){return new wn(this._tNode,this._rootLView)}destroy(){this.hostView.destroy()}onDestroy(t){this.hostView.onDestroy(t)}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const dr=new Map;
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class MD extends dn{constructor(t,n){super(),this._parent=n,this._bootstrapComponents=[],this.injector=this,this.destroyCbs=[],this.componentFactoryResolver=new $p(this);const r=Ge(t),o=t[Lm]||null;o&&Xl(o),this._bootstrapComponents=It(r.bootstrap),this._r3Injector=Wd(t,n,[{provide:dn,useValue:this},{provide:sr,useValue:this.componentFactoryResolver}],D(t)),this._r3Injector._resolveInjectorDefTypes(),this.instance=this.get(t)}get(t,n=ie.THROW_IF_NOT_FOUND,r=H.Default){return t===ie||t===dn||t===Bn?this:this._r3Injector.get(t,n,r)}destroy(){const t=this._r3Injector;!t.destroyed&&t.destroy(),this.destroyCbs.forEach(n=>n()),this.destroyCbs=null}onDestroy(t){this.destroyCbs.push(t)}}class Ca extends yp{constructor(t){super(),this.moduleType=t,null!==Ge(t)&&function(e){const t=new Set;!function n(r){const o=Ge(r,!0),s=o.id;null!==s&&(function(e,t,n){if(t&&t!==n)throw new Error(`Duplicate module registered for ${e} - ${D(t)} vs ${D(t.name)}`)}(s,dr.get(s),r),dr.set(s,r));const i=It(o.imports);for(const l of i)t.has(l)||(t.add(l),n(l))}(e)}(t)}create(t){return new MD(this.moduleType,t)}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Gp(e,t,n){const r=Ae()+e,o=v();return o[r]===Q?wt(o,r,n?t.call(n):t()):Yr(o,r)}function Kp(e,t,n,r){return Jp(v(),Ae(),e,t,n,r)}function qp(e,t,n,r,o){return Xp(v(),Ae(),e,t,n,r,o)}function zp(e,t,n,r,o,s){return eg(v(),Ae(),e,t,n,r,o,s)}function Yp(e,t,n,r,o,s,i){return tg(v(),Ae(),e,t,n,r,o,s,i)}function Zp(e,t,n,r,o,s,i,l){const a=Ae()+e,c=v(),u=Je(c,a,n,r,o,s);return xe(c,a+4,i)||u?wt(c,a+5,l?t.call(l,n,r,o,s,i):t(n,r,o,s,i)):Yr(c,a+5)}function ho(e,t){const n=e[t];return n===Q?void 0:n}function Jp(e,t,n,r,o,s){const i=t+n;return xe(e,i,o)?wt(e,i+1,s?r.call(s,o):r(o)):ho(e,i+1)}function Xp(e,t,n,r,o,s,i){const l=t+n;return cn(e,l,o,s)?wt(e,l+2,i?r.call(i,o,s):r(o,s)):ho(e,l+2)}function eg(e,t,n,r,o,s,i,l){const a=t+n;return hs(e,a,o,s,i)?wt(e,a+3,l?r.call(l,o,s,i):r(o,s,i)):ho(e,a+3)}function tg(e,t,n,r,o,s,i,l,a){const c=t+n;return Je(e,c,o,s,i,l)?wt(e,c+4,a?r.call(a,o,s,i,l):r(o,s,i,l)):ho(e,c+4)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function rg(e,t){const n=J();let r;const o=e+20;n.firstCreatePass?(r=function(e,t){if(t)for(let n=t.length-1;n>=0;n--){const r=t[n];if(e===r.name)return r}throw new $("302",`The pipe '${e}' could not be found!`)}(t,n.pipeRegistry),n.data[o]=r,r.onDestroy&&(n.destroyHooks||(n.destroyHooks=[])).push(o,r.onDestroy)):r=n.data[o];const s=r.factory||(r.factory=nn(r.type)),i=Ht(Zr);try{const l=Uo(!1),a=s();return Uo(l),function(e,t,n,r){n>=e.data.length&&(e.data[n]=null,e.blueprint[n]=null),t[n]=r}(n,v(),o,a),a}finally{Ht(i)}}function og(e,t,n){const r=e+20,o=v(),s=Cn(o,r);return go(o,po(o,r)?Jp(o,Ae(),t,s.transform,n,s):s.transform(n))}function sg(e,t,n,r){const o=e+20,s=v(),i=Cn(s,o);return go(s,po(s,o)?Xp(s,Ae(),t,i.transform,n,r,i):i.transform(n,r))}function ig(e,t,n,r,o){const s=e+20,i=v(),l=Cn(i,s);return go(i,po(i,s)?eg(i,Ae(),t,l.transform,n,r,o,l):l.transform(n,r,o))}function lg(e,t,n,r,o,s){const i=e+20,l=v(),a=Cn(l,i);return go(l,po(l,i)?tg(l,Ae(),t,a.transform,n,r,o,s,a):a.transform(n,r,o,s))}function ag(e,t,n){const r=e+20,o=v(),s=Cn(o,r);return go(o,po(o,r)?function(e,t,n,r,o,s){let i=t+n,l=!1;for(let a=0;a<o.length;a++)xe(e,i++,o[a])&&(l=!0);return l?wt(e,i,r.apply(s,o)):ho(e,i)}(o,Ae(),t,s.transform,n,s):s.transform.apply(s,n))}function po(e,t){return e[1].data[t].pure}function go(e,t){return at.isWrapped(t)&&(t=at.unwrap(t),e[Et()]=Q),t}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Ia(e){return t=>{setTimeout(e,void 0,t)}}const xt=class extends x.xQ{constructor(t=!1){super(),this.__isAsync=t}emit(t){super.next(t)}subscribe(t,n,r){var o,s,i;let l=t,a=n||(()=>null),c=r;if(t&&"object"==typeof t){const d=t;l=null===(o=d.next)||void 0===o?void 0:o.bind(d),a=null===(s=d.error)||void 0===s?void 0:s.bind(d),c=null===(i=d.complete)||void 0===i?void 0:i.bind(d)}this.__isAsync&&(a=Ia(a),l&&(l=Ia(l)),c&&(c=Ia(c)));const u=super.subscribe({next:l,error:a,complete:c});return t instanceof M.w&&t.add(u),u}};
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function SD(){return this._results[Qn()]()}class Os{constructor(t=!1){this._emitDistinctChangesOnly=t,this.dirty=!0,this._results=[],this._changesDetected=!1,this._changes=null,this.length=0,this.first=void 0,this.last=void 0;const n=Qn(),r=Os.prototype;r[n]||(r[n]=SD)}get changes(){return this._changes||(this._changes=new xt)}get(t){return this._results[t]}map(t){return this._results.map(t)}filter(t){return this._results.filter(t)}find(t){return this._results.find(t)}reduce(t,n){return this._results.reduce(t,n)}forEach(t){this._results.forEach(t)}some(t){return this._results.some(t)}toArray(){return this._results.slice()}toString(){return this._results.toString()}reset(t,n){const r=this;r.dirty=!1;const o=Ye(t);(this._changesDetected=!function(e,t,n){if(e.length!==t.length)return!1;for(let r=0;r<e.length;r++){let o=e[r],s=t[r];if(n&&(o=n(o),s=n(s)),s!==o)return!1}return!0}(r._results,o,n))&&(r._results=o,r.length=o.length,r.last=o[this.length-1],r.first=o[0])}notifyOnChanges(){this._changes&&(this._changesDetected||!this._emitDistinctChangesOnly)&&this._changes.emit(this)}setDirty(){this.dirty=!0}destroy(){this.changes.complete(),this.changes.unsubscribe()}}Symbol;class va{constructor(t){this.queryList=t,this.matches=null}clone(){return new va(this.queryList)}setDirty(){this.queryList.setDirty()}}class Da{constructor(t=[]){this.queries=t}createEmbeddedView(t){const n=t.queries;if(null!==n){const r=null!==t.contentQueries?t.contentQueries[0]:n.length,o=[];for(let s=0;s<r;s++){const i=n.getByIndex(s);o.push(this.queries[i.indexInDeclarationView].clone())}return new Da(o)}return null}insertView(t){this.dirtyQueriesWithMatches(t)}detachView(t){this.dirtyQueriesWithMatches(t)}dirtyQueriesWithMatches(t){for(let n=0;n<this.queries.length;n++)null!==_g(t,n).matches&&this.queries[n].setDirty()}}class cg{constructor(t,n,r=null){this.predicate=t,this.flags=n,this.read=r}}class wa{constructor(t=[]){this.queries=t}elementStart(t,n){for(let r=0;r<this.queries.length;r++)this.queries[r].elementStart(t,n)}elementEnd(t){for(let n=0;n<this.queries.length;n++)this.queries[n].elementEnd(t)}embeddedTView(t){let n=null;for(let r=0;r<this.length;r++){const o=null!==n?n.length:0,s=this.getByIndex(r).embeddedTView(t,o);s&&(s.indexInDeclarationView=r,null!==n?n.push(s):n=[s])}return null!==n?new wa(n):null}template(t,n){for(let r=0;r<this.queries.length;r++)this.queries[r].template(t,n)}getByIndex(t){return this.queries[t]}get length(){return this.queries.length}track(t){this.queries.push(t)}}class Ta{constructor(t,n=-1){this.metadata=t,this.matches=null,this.indexInDeclarationView=-1,this.crossesNgTemplate=!1,this._appliesToNextNode=!0,this._declarationNodeIndex=n}elementStart(t,n){this.isApplyingToNode(n)&&this.matchTNode(t,n)}elementEnd(t){this._declarationNodeIndex===t.index&&(this._appliesToNextNode=!1)}template(t,n){this.elementStart(t,n)}embeddedTView(t,n){return this.isApplyingToNode(t)?(this.crossesNgTemplate=!0,this.addMatch(-t.index,n),new Ta(this.metadata)):null}isApplyingToNode(t){if(this._appliesToNextNode&&1!=(1&this.metadata.flags)){const n=this._declarationNodeIndex;let r=t.parent;for(;null!==r&&8&r.type&&r.index!==n;)r=r.parent;return n===(null!==r?r.index:-1)}return this._appliesToNextNode}matchTNode(t,n){const r=this.metadata.predicate;if(Array.isArray(r))for(let o=0;o<r.length;o++){const s=r[o];this.matchTNodeWithReadOption(t,n,LD(n,s)),this.matchTNodeWithReadOption(t,n,Go(n,t,s,!1,!1))}else r===oo?4&n.type&&this.matchTNodeWithReadOption(t,n,-1):this.matchTNodeWithReadOption(t,n,Go(n,t,r,!1,!1))}matchTNodeWithReadOption(t,n,r){if(null!==r){const o=this.metadata.read;if(null!==o)if(o===Mt||o===xs||o===oo&&4&n.type)this.addMatch(n.index,-2);else{const s=Go(n,t,o,!1,!1);null!==s&&this.addMatch(n.index,s)}else this.addMatch(n.index,r)}}addMatch(t,n){null===this.matches?this.matches=[t,n]:this.matches.push(t,n)}}function LD(e,t){const n=e.localNames;if(null!==n)for(let r=0;r<n.length;r+=2)if(n[r]===t)return n[r+1];return null}function jD(e,t,n,r){return-1===n?function(e,t){return 11&e.type?ir(e,t):4&e.type?Ms(e,t):null}(t,e):-2===n?function(e,t,n){return n===Mt?ir(t,e):n===oo?Ms(t,e):n===xs?Cp(t,e):void 0}(e,t,r):Nr(e,e[1],n,t)}function ug(e,t,n,r){const o=t[19].queries[r];if(null===o.matches){const s=e.data,i=n.matches,l=[];for(let a=0;a<i.length;a+=2){const c=i[a];l.push(c<0?null:jD(t,s[c],i[a+1],n.metadata.read))}o.matches=l}return o.matches}function Ma(e,t,n,r){const o=e.queries.getByIndex(n),s=o.matches;if(null!==s){const i=ug(e,t,o,n);for(let l=0;l<s.length;l+=2){const a=s[l];if(a>0)r.push(i[l/2]);else{const c=s[l+1],u=t[-a];for(let d=10;d<u.length;d++){const f=u[d];f[17]===f[3]&&Ma(f[1],f,c,r)}if(null!==u[9]){const d=u[9];for(let f=0;f<d.length;f++){const h=d[f];Ma(h[1],h,c,r)}}}}}return r}function dg(e){const t=v(),n=J(),r=kc();pi(r+1);const o=_g(n,r);if(e.dirty&&Nc(t)===(2==(2&o.metadata.flags))){if(null===o.matches)e.reset([]);else{const s=o.crossesNgTemplate?Ma(n,t,r,[]):ug(n,t,o,r);e.reset(s,cp),e.notifyOnChanges()}return!0}return!1}function fg(e,t,n){const r=J();r.firstCreatePass&&(mg(r,new cg(e,t,n),-1),2==(2&t)&&(r.staticViewQueries=!0)),gg(r,v(),t)}function hg(e,t,n,r){const o=J();if(o.firstCreatePass){const s=_e();mg(o,new cg(t,n,r),s.index),function(e,t){const n=e.contentQueries||(e.contentQueries=[]);t!==(n.length?n[n.length-1]:-1)&&n.push(e.queries.length-1,t)}(o,e),2==(2&n)&&(o.staticContentQueries=!0)}gg(o,v(),n)}function pg(){return e=v(),t=kc(),e[19].queries[t].queryList;var e,t}function gg(e,t,n){const r=new Os(4==(4&n));Md(e,t,r,r.destroy),null===t[19]&&(t[19]=new Da),t[19].queries.push(new va(r))}function mg(e,t,n){null===e.queries&&(e.queries=new wa),e.queries.track(new Ta(t,n))}function _g(e,t){return e.queries.getByIndex(t)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function yg(e,t){return Ms(e,t)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const iw=ru("Input",e=>({bindingPropertyName:e})),lw=ru("Output",e=>({bindingPropertyName:e})),Oa=new de("Application Initializer");
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let hr=(()=>{class e{constructor(n){this.appInits=n,this.resolve=Is,this.reject=Is,this.initialized=!1,this.done=!1,this.donePromise=new Promise((r,o)=>{this.resolve=r,this.reject=o})}runInitializers(){if(this.initialized)return;const n=[],r=()=>{this.done=!0,this.resolve()};if(this.appInits)for(let o=0;o<this.appInits.length;o++){const s=this.appInits[o]();if(jl(s))n.push(s);else if(Hl(s)){const i=new Promise((l,a)=>{s.subscribe({complete:l,error:a})});n.push(i)}}Promise.all(n).then(()=>{r()}).catch(o=>{this.reject(o)}),0===n.length&&r(),this.initialized=!0}}return e.\u0275fac=function(n){return new(n||e)(ge(Oa,8))},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const kg=new de("AppId"),_w={provide:kg,useFactory:function(){return`${Sa()}${Sa()}${Sa()}`},deps:[]};function Sa(){return String.fromCharCode(97+Math.floor(25*Math.random()))}const Lg=new de("Platform Initializer"),Fg=new de("Platform ID"),jg=new de("appBootstrapListener");
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let Hg=(()=>{class e{log(n){console.log(n)}warn(n){console.warn(n)}}return e.\u0275fac=function(n){return new(n||e)},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const ks=new de("LocaleId"),$g=new de("DefaultCurrencyCode");
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class Ew{constructor(t,n){this.ngModuleFactory=t,this.componentFactories=n}}const Va=function(e){return new Ca(e)},bw=Va,Cw=function(e){return Promise.resolve(Va(e))},Bg=function(e){const t=Va(e),r=It(Ge(e).declarations).reduce((o,s)=>{const i=Pe(s);return i&&o.push(new Up(i)),o},[]);return new Ew(t,r)},Iw=Bg,vw=function(e){return Promise.resolve(Bg(e))};let _o=(()=>{class e{constructor(){this.compileModuleSync=bw,this.compileModuleAsync=Cw,this.compileModuleAndAllComponentsSync=Iw,this.compileModuleAndAllComponentsAsync=vw}clearCache(){}clearCacheFor(n){}getModuleId(n){}}return e.\u0275fac=function(n){return new(n||e)},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+const Tw=(()=>Promise.resolve(0))();function ka(e){"undefined"==typeof Zone?Tw.then(()=>{e&&e.apply(null,null)}):Zone.current.scheduleMicroTask("scheduleMicrotask",e)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class We{constructor({enableLongStackTrace:t=!1,shouldCoalesceEventChangeDetection:n=!1,shouldCoalesceRunChangeDetection:r=!1}){if(this.hasPendingMacrotasks=!1,this.hasPendingMicrotasks=!1,this.isStable=!0,this.onUnstable=new xt(!1),this.onMicrotaskEmpty=new xt(!1),this.onStable=new xt(!1),this.onError=new xt(!1),"undefined"==typeof Zone)throw new Error("In this configuration Angular requires Zone.js");Zone.assertZonePatched();const o=this;o._nesting=0,o._outer=o._inner=Zone.current,Zone.TaskTrackingZoneSpec&&(o._inner=o._inner.fork(new Zone.TaskTrackingZoneSpec)),t&&Zone.longStackTraceZoneSpec&&(o._inner=o._inner.fork(Zone.longStackTraceZoneSpec)),o.shouldCoalesceEventChangeDetection=!r&&n,o.shouldCoalesceRunChangeDetection=r,o.lastRequestAnimationFrameId=-1,o.nativeRequestAnimationFrame=function(){let e=ae.requestAnimationFrame,t=ae.cancelAnimationFrame;if("undefined"!=typeof Zone&&e&&t){const n=e[Zone.__symbol__("OriginalDelegate")];n&&(e=n);const r=t[Zone.__symbol__("OriginalDelegate")];r&&(t=r)}return{nativeRequestAnimationFrame:e,nativeCancelAnimationFrame:t}}().nativeRequestAnimationFrame,function(e){const t=()=>{!function(e){e.isCheckStableRunning||-1!==e.lastRequestAnimationFrameId||(e.lastRequestAnimationFrameId=e.nativeRequestAnimationFrame.call(ae,()=>{e.fakeTopEventTask||(e.fakeTopEventTask=Zone.root.scheduleEventTask("fakeTopEventTask",()=>{e.lastRequestAnimationFrameId=-1,Fa(e),e.isCheckStableRunning=!0,La(e),e.isCheckStableRunning=!1},void 0,()=>{},()=>{})),e.fakeTopEventTask.invoke()}),Fa(e))}(e)};e._inner=e._inner.fork({name:"angular",properties:{isAngularZone:!0},onInvokeTask:(n,r,o,s,i,l)=>{try{return Ug(e),n.invokeTask(o,s,i,l)}finally{(e.shouldCoalesceEventChangeDetection&&"eventTask"===s.type||e.shouldCoalesceRunChangeDetection)&&t(),Wg(e)}},onInvoke:(n,r,o,s,i,l,a)=>{try{return Ug(e),n.invoke(o,s,i,l,a)}finally{e.shouldCoalesceRunChangeDetection&&t(),Wg(e)}},onHasTask:(n,r,o,s)=>{n.hasTask(o,s),r===o&&("microTask"==s.change?(e._hasPendingMicrotasks=s.microTask,Fa(e),La(e)):"macroTask"==s.change&&(e.hasPendingMacrotasks=s.macroTask))},onHandleError:(n,r,o,s)=>(n.handleError(o,s),e.runOutsideAngular(()=>e.onError.emit(s)),!1)})}(o)}static isInAngularZone(){return!0===Zone.current.get("isAngularZone")}static assertInAngularZone(){if(!We.isInAngularZone())throw new Error("Expected to be in Angular Zone, but it is not!")}static assertNotInAngularZone(){if(We.isInAngularZone())throw new Error("Expected to not be in Angular Zone, but it is!")}run(t,n,r){return this._inner.run(t,n,r)}runTask(t,n,r,o){const s=this._inner,i=s.scheduleEventTask("NgZoneEvent: "+o,t,xw,Is,Is);try{return s.runTask(i,n,r)}finally{s.cancelTask(i)}}runGuarded(t,n,r){return this._inner.runGuarded(t,n,r)}runOutsideAngular(t){return this._outer.run(t)}}const xw={};function La(e){if(0==e._nesting&&!e.hasPendingMicrotasks&&!e.isStable)try{e._nesting++,e.onMicrotaskEmpty.emit(null)}finally{if(e._nesting--,!e.hasPendingMicrotasks)try{e.runOutsideAngular(()=>e.onStable.emit(null))}finally{e.isStable=!0}}}function Fa(e){e.hasPendingMicrotasks=!!(e._hasPendingMicrotasks||(e.shouldCoalesceEventChangeDetection||e.shouldCoalesceRunChangeDetection)&&-1!==e.lastRequestAnimationFrameId)}function Ug(e){e._nesting++,e.isStable&&(e.isStable=!1,e.onUnstable.emit(null))}function Wg(e){e._nesting--,La(e)}class Pw{constructor(){this.hasPendingMicrotasks=!1,this.hasPendingMacrotasks=!1,this.isStable=!0,this.onUnstable=new xt,this.onMicrotaskEmpty=new xt,this.onStable=new xt,this.onError=new xt}run(t,n,r){return t.apply(n,r)}runGuarded(t,n,r){return t.apply(n,r)}runOutsideAngular(t){return t()}runTask(t,n,r,o){return t.apply(n,r)}}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let Qg=(()=>{class e{constructor(n){this._ngZone=n,this._pendingCount=0,this._isZoneStable=!0,this._didWork=!1,this._callbacks=[],this.taskTrackingZone=null,this._watchAngularEvents(),n.run(()=>{this.taskTrackingZone="undefined"==typeof Zone?null:Zone.current.get("TaskTrackingZone")})}_watchAngularEvents(){this._ngZone.onUnstable.subscribe({next:()=>{this._didWork=!0,this._isZoneStable=!1}}),this._ngZone.runOutsideAngular(()=>{this._ngZone.onStable.subscribe({next:()=>{We.assertNotInAngularZone(),ka(()=>{this._isZoneStable=!0,this._runCallbacksIfReady()})}})})}increasePendingRequestCount(){return this._pendingCount+=1,this._didWork=!0,this._pendingCount}decreasePendingRequestCount(){if(this._pendingCount-=1,this._pendingCount<0)throw new Error("pending async requests below zero");return this._runCallbacksIfReady(),this._pendingCount}isStable(){return this._isZoneStable&&0===this._pendingCount&&!this._ngZone.hasPendingMacrotasks}_runCallbacksIfReady(){if(this.isStable())ka(()=>{for(;0!==this._callbacks.length;){let n=this._callbacks.pop();clearTimeout(n.timeoutId),n.doneCb(this._didWork)}this._didWork=!1});else{let n=this.getPendingTasks();this._callbacks=this._callbacks.filter(r=>!r.updateCb||!r.updateCb(n)||(clearTimeout(r.timeoutId),!1)),this._didWork=!0}}getPendingTasks(){return this.taskTrackingZone?this.taskTrackingZone.macroTasks.map(n=>({source:n.source,creationLocation:n.creationLocation,data:n.data})):[]}addCallback(n,r,o){let s=-1;r&&r>0&&(s=setTimeout(()=>{this._callbacks=this._callbacks.filter(i=>i.timeoutId!==s),n(this._didWork,this.getPendingTasks())},r)),this._callbacks.push({doneCb:n,timeoutId:s,updateCb:o})}whenStable(n,r,o){if(o&&!this.taskTrackingZone)throw new Error('Task tracking zone is required when passing an update callback to whenStable(). Is "zone.js/plugins/task-tracking" loaded?');this.addCallback(n,r,o),this._runCallbacksIfReady()}getPendingRequestCount(){return this._pendingCount}findProviders(n,r,o){return[]}}return e.\u0275fac=function(n){return new(n||e)(ge(We))},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})(),Gg=(()=>{class e{constructor(){this._applications=new Map,ja.addToWindow(this)}registerApplication(n,r){this._applications.set(n,r)}unregisterApplication(n){this._applications.delete(n)}unregisterAllApplications(){this._applications.clear()}getTestability(n){return this._applications.get(n)||null}getAllTestabilities(){return Array.from(this._applications.values())}getAllRootElements(){return Array.from(this._applications.keys())}findTestabilityInTree(n,r=!0){return ja.findTestabilityInTree(this,n,r)}}return e.\u0275fac=function(n){return new(n||e)},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();class Aw{addToWindow(t){}findTestabilityInTree(t,n,r){return null}}function Ow(e){ja=e}let ja=new Aw,Kg=!0,qg=!1;
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */function Ha(){return qg=!0,Kg}function Sw(){if(qg)throw new Error("Cannot enable prod mode after platform setup.");Kg=!1}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */let pt;const zg=new de("AllowMultipleToken");class $w{constructor(t,n){this.name=t,this.token=n}}function Yg(e,t,n=[]){const r=`Platform: ${t}`,o=new de(r);return(s=[])=>{let i=Zg();if(!i||i.injector.get(zg,!1))if(e)e(n.concat(s).concat({provide:o,useValue:!0}));else{const l=n.concat(s).concat({provide:o,useValue:!0},{provide:Gr,useValue:"platform"});!function(e){if(pt&&!pt.destroyed&&!pt.injector.get(zg,!1))throw new Error("There can be only one platform. Destroy the previous one to create a new one.");pt=e.get($a);const t=e.get(Lg,null);t&&t.forEach(n=>n())}(ie.create({providers:l,name:r}))}return function(e){const t=Zg();if(!t)throw new Error("No platform exists!");if(!t.injector.get(e,null))throw new Error("A platform with a different configuration has been created. Please destroy it first.");return t}(o)}}function Zg(){return pt&&!pt.destroyed?pt:null}let $a=(()=>{class e{constructor(n){this._injector=n,this._modules=[],this._destroyListeners=[],this._destroyed=!1}bootstrapModuleFactory(n,r){const l=function(e,t){let n;return n="noop"===e?new Pw:("zone.js"===e?void 0:e)||new We({enableLongStackTrace:Ha(),shouldCoalesceEventChangeDetection:!!(null==t?void 0:t.ngZoneEventCoalescing),shouldCoalesceRunChangeDetection:!!(null==t?void 0:t.ngZoneRunCoalescing)}),n}(r?r.ngZone:void 0,{ngZoneEventCoalescing:r&&r.ngZoneEventCoalescing||!1,ngZoneRunCoalescing:r&&r.ngZoneRunCoalescing||!1}),a=[{provide:We,useValue:l}];return l.run(()=>{const c=ie.create({providers:a,parent:this.injector,name:n.moduleType.name}),u=n.create(c),d=u.injector.get(kn,null);if(!d)throw new Error("No ErrorHandler. Is platform module (BrowserModule) included?");return l.runOutsideAngular(()=>{const f=l.onError.subscribe({next:h=>{d.handleError(h)}});u.onDestroy(()=>{Ba(this._modules,u),f.unsubscribe()})}),function(e,t,n){try{const r=n();return jl(r)?r.catch(o=>{throw t.runOutsideAngular(()=>e.handleError(o)),o}):r}catch(r){throw t.runOutsideAngular(()=>e.handleError(r)),r}}(d,l,()=>{const f=u.injector.get(hr);return f.runInitializers(),f.donePromise.then(()=>(Xl(u.injector.get(ks,_s)||_s),this._moduleDoBootstrap(u),u))})})}bootstrapModule(n,r=[]){const o=Jg({},r);return function(e,t,n){const r=new Ca(n);return Promise.resolve(r)}(0,0,n).then(s=>this.bootstrapModuleFactory(s,o))}_moduleDoBootstrap(n){const r=n.injector.get(yo);if(n._bootstrapComponents.length>0)n._bootstrapComponents.forEach(o=>r.bootstrap(o));else{if(!n.instance.ngDoBootstrap)throw new Error(`The module ${D(n.instance.constructor)} was bootstrapped, but it does not declare "@NgModule.bootstrap" components nor a "ngDoBootstrap" method. Please define one of these.`);n.instance.ngDoBootstrap(r)}this._modules.push(n)}onDestroy(n){this._destroyListeners.push(n)}get injector(){return this._injector}destroy(){if(this._destroyed)throw new Error("The platform has already been destroyed!");this._modules.slice().forEach(n=>n.destroy()),this._destroyListeners.forEach(n=>n()),this._destroyed=!0}get destroyed(){return this._destroyed}}return e.\u0275fac=function(n){return new(n||e)(ge(ie))},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();function Jg(e,t){return Array.isArray(t)?t.reduce(Jg,e):Object.assign(Object.assign({},e),t)}let yo=(()=>{class e{constructor(n,r,o,s,i){this._zone=n,this._injector=r,this._exceptionHandler=o,this._componentFactoryResolver=s,this._initStatus=i,this._bootstrapListeners=[],this._views=[],this._runningTick=!1,this._stable=!0,this.componentTypes=[],this.components=[],this._onMicrotaskEmptySubscription=this._zone.onMicrotaskEmpty.subscribe({next:()=>{this._zone.run(()=>{this.tick()})}});const l=new V.y(c=>{this._stable=this._zone.isStable&&!this._zone.hasPendingMacrotasks&&!this._zone.hasPendingMicrotasks,this._zone.runOutsideAngular(()=>{c.next(this._stable),c.complete()})}),a=new V.y(c=>{let u;this._zone.runOutsideAngular(()=>{u=this._zone.onStable.subscribe(()=>{We.assertNotInAngularZone(),ka(()=>{!this._stable&&!this._zone.hasPendingMacrotasks&&!this._zone.hasPendingMicrotasks&&(this._stable=!0,c.next(!0))})})});const d=this._zone.onUnstable.subscribe(()=>{We.assertInAngularZone(),this._stable&&(this._stable=!1,this._zone.runOutsideAngular(()=>{c.next(!1)}))});return()=>{u.unsubscribe(),d.unsubscribe()}});this.isStable=(0,P.T)(l,a.pipe((0,R.B)()))}bootstrap(n,r){if(!this._initStatus.done)throw new Error("Cannot bootstrap as there are still asynchronous initializers running. Bootstrap components in the `ngDoBootstrap` method of the root module.");let o;o=n instanceof ip?n:this._componentFactoryResolver.resolveComponentFactory(n),this.componentTypes.push(o.componentType);const s=function(e){return e.isBoundToModule}(o)?void 0:this._injector.get(dn),l=o.create(ie.NULL,[],r||o.selector,s),a=l.location.nativeElement,c=l.injector.get(Qg,null),u=c&&l.injector.get(Gg);return c&&u&&u.registerApplication(a,c),l.onDestroy(()=>{this.detachView(l.hostView),Ba(this.components,l),u&&u.unregisterApplication(a)}),this._loadComponent(l),l}tick(){if(this._runningTick)throw new Error("ApplicationRef.tick is called recursively");try{this._runningTick=!0;for(let n of this._views)n.detectChanges()}catch(n){this._zone.runOutsideAngular(()=>this._exceptionHandler.handleError(n))}finally{this._runningTick=!1}}attachView(n){const r=n;this._views.push(r),r.attachToAppRef(this)}detachView(n){const r=n;Ba(this._views,r),r.detachFromAppRef()}_loadComponent(n){this.attachView(n.hostView),this.tick(),this.components.push(n),this._injector.get(jg,[]).concat(this._bootstrapListeners).forEach(o=>o(n))}ngOnDestroy(){this._views.slice().forEach(n=>n.destroy()),this._onMicrotaskEmptySubscription.unsubscribe()}get viewCount(){return this._views.length}}return e.\u0275fac=function(n){return new(n||e)(ge(We),ge(ie),ge(kn),ge(sr),ge(hr))},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();function Ba(e,t){const n=e.indexOf(t);n>-1&&e.splice(n,1)}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+class Kw{}class zw{}const Yw={factoryPathPrefix:"",factoryPathSuffix:".ngfactory"};let Zw=(()=>{class e{constructor(n,r){this._compiler=n,this._config=r||Yw}load(n){return this.loadAndCompile(n)}loadAndCompile(n){let[r,o]=n.split("#");return void 0===o&&(o="default"),m(98255)(r).then(s=>s[o]).then(s=>nm(s,r,o)).then(s=>this._compiler.compileModuleAsync(s))}loadFactory(n){let[r,o]=n.split("#"),s="NgFactory";return void 0===o&&(o="default",s=""),m(98255)(this._config.factoryPathPrefix+r+this._config.factoryPathSuffix).then(i=>i[o+s]).then(i=>nm(i,r,o))}}return e.\u0275fac=function(n){return new(n||e)(ge(_o),ge(zw,8))},e.\u0275prov=Ce({token:e,factory:e.\u0275fac}),e})();function nm(e,t,n){if(!e)throw new Error(`Cannot find '${n}' in '${t}'`);return e}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */const sT=function(e){return null},lT=Yg(null,"core",[{provide:Fg,useValue:"unknown"},{provide:$a,deps:[ie]},{provide:Gg,deps:[]},{provide:Hg,deps:[]}]),fT=[{provide:yo,useClass:yo,deps:[We,ie,kn,sr,hr]},{provide:CD,deps:[We],useFactory:function(e){let t=[];return e.onStable.subscribe(()=>{for(;t.length;)t.pop()()}),function(n){t.push(n)}}},{provide:hr,useClass:hr,deps:[[new Ot,Oa]]},{provide:_o,useClass:_o,deps:[]},_w,{provide:Ds,useFactory:
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+function(){return gv},deps:[]},{provide:ws,useFactory:function(){return mv},deps:[]},{provide:ks,useFactory:function(e){return Xl(e=e||"undefined"!=typeof $localize&&$localize.locale||_s),e},deps:[[new An(ks),new Ot,new Kt]]},{provide:$g,useValue:"USD"}];let pT=(()=>{class e{constructor(n){}}return e.\u0275fac=function(n){return new(n||e)(ge(yo))},e.\u0275mod=Js({type:e}),e.\u0275inj=br({providers:fT}),e})();
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */}
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+/**
+     * @license
+     * Copyright Google LLC All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */,32731:(q,N,m)=>{"use strict";m.d(N,{y:()=>T});var x=m(23564),M=m(65530),V=m(71846),P=m(8444),C=m(84358),k=m(48009),D=m(64622);let T=(()=>{class y{constructor(O){this._isScalar=!1,O&&(this._subscribe=O)}lift(O){const A=new y;return A.source=this,A.operator=O,A}subscribe(O,A,$){const{operator:ee}=this,z=function(y,_,O){if(y){if(y instanceof M.L)return y;if(y[V.b])return y[V.b]()}return y||_||O?new M.L(y,_,O):new M.L(P.c)}(O,A,$);if(z.add(ee?ee.call(z,this.source):this.source||D.v.useDeprecatedSynchronousErrorHandling&&!z.syncErrorThrowable?this._subscribe(z):this._trySubscribe(z)),D.v.useDeprecatedSynchronousErrorHandling&&z.syncErrorThrowable&&(z.syncErrorThrowable=!1,z.syncErrorThrown))throw z.syncErrorValue;return z}_trySubscribe(O){try{return this._subscribe(O)}catch(A){D.v.useDeprecatedSynchronousErrorHandling&&(O.syncErrorThrown=!0,O.syncErrorValue=A),(0,x._)(O)?O.error(A):console.warn(A)}}forEach(O,A){return new(A=E(A))(($,ee)=>{let z;z=this.subscribe(F=>{try{O(F)}catch(oe){ee(oe),z&&z.unsubscribe()}},ee,$)})}_subscribe(O){const{source:A}=this;return A&&A.subscribe(O)}[C.L](){return this}pipe(...O){return 0===O.length?this:(0,k.U)(O)(this)}toPromise(O){return new(O=E(O))((A,$)=>{let ee;this.subscribe(z=>ee=z,z=>$(z),()=>A(ee))})}}return y.create=_=>new y(_),y})();function E(y){if(y||(y=D.v.Promise||Promise),!y)throw new Error("no Promise impl found");return y}},8444:(q,N,m)=>{"use strict";m.d(N,{c:()=>V});var x=m(64622),M=m(4358);const V={closed:!0,next(P){},error(P){if(x.v.useDeprecatedSynchronousErrorHandling)throw P;(0,M.z)(P)},complete(){}}},90850:(q,N,m)=>{"use strict";m.d(N,{Yc:()=>k,xQ:()=>D});var x=m(32731),M=m(65530),V=m(53488),P=m(34835),R=m(70968),C=m(71846);class k extends M.L{constructor(y){super(y),this.destination=y}}let D=(()=>{class E extends x.y{constructor(){super(),this.observers=[],this.closed=!1,this.isStopped=!1,this.hasError=!1,this.thrownError=null}[C.b](){return new k(this)}lift(_){const O=new T(this,this);return O.operator=_,O}next(_){if(this.closed)throw new P.N;if(!this.isStopped){const{observers:O}=this,A=O.length,$=O.slice();for(let ee=0;ee<A;ee++)$[ee].next(_)}}error(_){if(this.closed)throw new P.N;this.hasError=!0,this.thrownError=_,this.isStopped=!0;const{observers:O}=this,A=O.length,$=O.slice();for(let ee=0;ee<A;ee++)$[ee].error(_);this.observers.length=0}complete(){if(this.closed)throw new P.N;this.isStopped=!0;const{observers:_}=this,O=_.length,A=_.slice();for(let $=0;$<O;$++)A[$].complete();this.observers.length=0}unsubscribe(){this.isStopped=!0,this.closed=!0,this.observers=null}_trySubscribe(_){if(this.closed)throw new P.N;return super._trySubscribe(_)}_subscribe(_){if(this.closed)throw new P.N;return this.hasError?(_.error(this.thrownError),V.w.EMPTY):this.isStopped?(_.complete(),V.w.EMPTY):(this.observers.push(_),new R.W(this,_))}asObservable(){const _=new x.y;return _.source=this,_}}return E.create=(y,_)=>new T(y,_),E})();class T extends D{constructor(y,_){super(),this.destination=y,this.source=_}next(y){const{destination:_}=this;_&&_.next&&_.next(y)}error(y){const{destination:_}=this;_&&_.error&&this.destination.error(y)}complete(){const{destination:y}=this;y&&y.complete&&this.destination.complete()}_subscribe(y){const{source:_}=this;return _?this.source.subscribe(y):V.w.EMPTY}}},70968:(q,N,m)=>{"use strict";m.d(N,{W:()=>M});var x=m(53488);class M extends x.w{constructor(P,R){super(),this.subject=P,this.subscriber=R,this.closed=!1}unsubscribe(){if(this.closed)return;this.closed=!0;const P=this.subject,R=P.observers;if(this.subject=null,!R||0===R.length||P.isStopped||P.closed)return;const C=R.indexOf(this.subscriber);-1!==C&&R.splice(C,1)}}},65530:(q,N,m)=>{"use strict";m.d(N,{L:()=>k});var x=m(22299),M=m(8444),V=m(53488),P=m(71846),R=m(64622),C=m(4358);class k extends V.w{constructor(E,y,_){switch(super(),this.syncErrorValue=null,this.syncErrorThrown=!1,this.syncErrorThrowable=!1,this.isStopped=!1,arguments.length){case 0:this.destination=M.c;break;case 1:if(!E){this.destination=M.c;break}if("object"==typeof E){E instanceof k?(this.syncErrorThrowable=E.syncErrorThrowable,this.destination=E,E.add(this)):(this.syncErrorThrowable=!0,this.destination=new D(this,E));break}default:this.syncErrorThrowable=!0,this.destination=new D(this,E,y,_)}}[P.b](){return this}static create(E,y,_){const O=new k(E,y,_);return O.syncErrorThrowable=!1,O}next(E){this.isStopped||this._next(E)}error(E){this.isStopped||(this.isStopped=!0,this._error(E))}complete(){this.isStopped||(this.isStopped=!0,this._complete())}unsubscribe(){this.closed||(this.isStopped=!0,super.unsubscribe())}_next(E){this.destination.next(E)}_error(E){this.destination.error(E),this.unsubscribe()}_complete(){this.destination.complete(),this.unsubscribe()}_unsubscribeAndRecycle(){const{_parentOrParents:E}=this;return this._parentOrParents=null,this.unsubscribe(),this.closed=!1,this.isStopped=!1,this._parentOrParents=E,this}}class D extends k{constructor(E,y,_,O){super(),this._parentSubscriber=E;let A,$=this;(0,x.m)(y)?A=y:y&&(A=y.next,_=y.error,O=y.complete,y!==M.c&&($=Object.create(y),(0,x.m)($.unsubscribe)&&this.add($.unsubscribe.bind($)),$.unsubscribe=this.unsubscribe.bind(this))),this._context=$,this._next=A,this._error=_,this._complete=O}next(E){if(!this.isStopped&&this._next){const{_parentSubscriber:y}=this;R.v.useDeprecatedSynchronousErrorHandling&&y.syncErrorThrowable?this.__tryOrSetError(y,this._next,E)&&this.unsubscribe():this.__tryOrUnsub(this._next,E)}}error(E){if(!this.isStopped){const{_parentSubscriber:y}=this,{useDeprecatedSynchronousErrorHandling:_}=R.v;if(this._error)_&&y.syncErrorThrowable?(this.__tryOrSetError(y,this._error,E),this.unsubscribe()):(this.__tryOrUnsub(this._error,E),this.unsubscribe());else if(y.syncErrorThrowable)_?(y.syncErrorValue=E,y.syncErrorThrown=!0):(0,C.z)(E),this.unsubscribe();else{if(this.unsubscribe(),_)throw E;(0,C.z)(E)}}}complete(){if(!this.isStopped){const{_parentSubscriber:E}=this;if(this._complete){const y=()=>this._complete.call(this._context);R.v.useDeprecatedSynchronousErrorHandling&&E.syncErrorThrowable?(this.__tryOrSetError(E,y),this.unsubscribe()):(this.__tryOrUnsub(y),this.unsubscribe())}else this.unsubscribe()}}__tryOrUnsub(E,y){try{E.call(this._context,y)}catch(_){if(this.unsubscribe(),R.v.useDeprecatedSynchronousErrorHandling)throw _;(0,C.z)(_)}}__tryOrSetError(E,y,_){if(!R.v.useDeprecatedSynchronousErrorHandling)throw new Error("bad call");try{y.call(this._context,_)}catch(O){return R.v.useDeprecatedSynchronousErrorHandling?(E.syncErrorValue=O,E.syncErrorThrown=!0,!0):((0,C.z)(O),!0)}return!1}_unsubscribe(){const{_parentSubscriber:E}=this;this._context=null,this._parentSubscriber=null,E.unsubscribe()}}},53488:(q,N,m)=>{"use strict";m.d(N,{w:()=>C});var x=m(18533),M=m(23093),V=m(22299);const R=(()=>{function D(T){return Error.call(this),this.message=T?`${T.length} errors occurred during unsubscription:\n${T.map((E,y)=>`${y+1}) ${E.toString()}`).join("\n  ")}`:"",this.name="UnsubscriptionError",this.errors=T,this}return D.prototype=Object.create(Error.prototype),D})();class C{constructor(T){this.closed=!1,this._parentOrParents=null,this._subscriptions=null,T&&(this._ctorUnsubscribe=!0,this._unsubscribe=T)}unsubscribe(){let T;if(this.closed)return;let{_parentOrParents:E,_ctorUnsubscribe:y,_unsubscribe:_,_subscriptions:O}=this;if(this.closed=!0,this._parentOrParents=null,this._subscriptions=null,E instanceof C)E.remove(this);else if(null!==E)for(let A=0;A<E.length;++A)E[A].remove(this);if((0,V.m)(_)){y&&(this._unsubscribe=void 0);try{_.call(this)}catch(A){T=A instanceof R?k(A.errors):[A]}}if((0,x.k)(O)){let A=-1,$=O.length;for(;++A<$;){const ee=O[A];if((0,M.K)(ee))try{ee.unsubscribe()}catch(z){T=T||[],z instanceof R?T=T.concat(k(z.errors)):T.push(z)}}}if(T)throw new R(T)}add(T){let E=T;if(!T)return C.EMPTY;switch(typeof T){case"function":E=new C(T);case"object":if(E===this||E.closed||"function"!=typeof E.unsubscribe)return E;if(this.closed)return E.unsubscribe(),E;if(!(E instanceof C)){const O=E;E=new C,E._subscriptions=[O]}break;default:throw new Error("unrecognized teardown "+T+" added to Subscription.")}let{_parentOrParents:y}=E;if(null===y)E._parentOrParents=this;else if(y instanceof C){if(y===this)return E;E._parentOrParents=[y,this]}else{if(-1!==y.indexOf(this))return E;y.push(this)}const _=this._subscriptions;return null===_?this._subscriptions=[E]:_.push(E),E}remove(T){const E=this._subscriptions;if(E){const y=E.indexOf(T);-1!==y&&E.splice(y,1)}}}var D;function k(D){return D.reduce((T,E)=>T.concat(E instanceof R?E.errors:E),[])}C.EMPTY=((D=new C).closed=!0,D)},64622:(q,N,m)=>{"use strict";m.d(N,{v:()=>M});let x=!1;const M={Promise:void 0,set useDeprecatedSynchronousErrorHandling(V){if(V){const P=new Error;console.warn("DEPRECATED! RxJS was set to use deprecated synchronous error handling behavior by code at: \n"+P.stack)}else x&&console.log("RxJS: Back to a better error behavior. Thank you. <3");x=V},get useDeprecatedSynchronousErrorHandling(){return x}}},76803:(q,N,m)=>{"use strict";m.d(N,{IY:()=>P,Ds:()=>C,ft:()=>D});var x=m(65530),M=m(32731),V=m(12653);class P extends x.L{constructor(E){super(),this.parent=E}_next(E){this.parent.notifyNext(E)}_error(E){this.parent.notifyError(E),this.unsubscribe()}_complete(){this.parent.notifyComplete(),this.unsubscribe()}}class C extends x.L{notifyNext(E){this.destination.next(E)}notifyError(E){this.destination.error(E)}notifyComplete(){this.destination.complete()}}function D(T,E){if(E.closed)return;if(T instanceof M.y)return T.subscribe(E);let y;try{y=(0,V.s)(T)(E)}catch(_){E.error(_)}return y}},47900:(q,N,m)=>{"use strict";m.d(N,{c:()=>R,N:()=>C});var x=m(90850),M=m(32731),V=m(53488),P=m(81307);class R extends M.y{constructor(y,_){super(),this.source=y,this.subjectFactory=_,this._refCount=0,this._isComplete=!1}_subscribe(y){return this.getSubject().subscribe(y)}getSubject(){const y=this._subject;return(!y||y.isStopped)&&(this._subject=this.subjectFactory()),this._subject}connect(){let y=this._connection;return y||(this._isComplete=!1,y=this._connection=new V.w,y.add(this.source.subscribe(new k(this.getSubject(),this))),y.closed&&(this._connection=null,y=V.w.EMPTY)),y}refCount(){return(0,P.x)()(this)}}const C=(()=>{const E=R.prototype;return{operator:{value:null},_refCount:{value:0,writable:!0},_subject:{value:null,writable:!0},_connection:{value:null,writable:!0},_subscribe:{value:E._subscribe},_isComplete:{value:E._isComplete,writable:!0},getSubject:{value:E.getSubject},connect:{value:E.connect},refCount:{value:E.refCount}}})();class k extends x.Yc{constructor(y,_){super(y),this.connectable=_}_error(y){this._unsubscribe(),super._error(y)}_complete(){this.connectable._isComplete=!0,this._unsubscribe(),super._complete()}_unsubscribe(){const y=this.connectable;if(y){this.connectable=null;const _=y._connection;y._refCount=0,y._subject=null,y._connection=null,_&&_.unsubscribe()}}}},79906:(q,N,m)=>{"use strict";m.d(N,{D:()=>P});var x=m(32731),M=m(12653),V=m(99477);function P(R,C){return C?(0,V.x)(R,C):R instanceof x.y?R:new x.y((0,M.s)(R))}},45727:(q,N,m)=>{"use strict";m.d(N,{n:()=>P});var x=m(32731),M=m(74843),V=m(24107);function P(R,C){return C?(0,V.r)(R,C):new x.y((0,M.V)(R))}},38009:(q,N,m)=>{"use strict";m.d(N,{T:()=>R});var x=m(32731),M=m(44711),V=m(80919),P=m(45727);function R(...C){let k=Number.POSITIVE_INFINITY,D=null,T=C[C.length-1];return(0,M.K)(T)?(D=C.pop(),C.length>1&&"number"==typeof C[C.length-1]&&(k=C.pop())):"number"==typeof T&&(k=C.pop()),null===D&&1===C.length&&C[0]instanceof x.y?C[0]:(0,V.J)(k)((0,P.n)(C,D))}},71726:(q,N,m)=>{"use strict";m.d(N,{U:()=>M});var x=m(65530);function M(R,C){return function(D){if("function"!=typeof R)throw new TypeError("argument is not a function. Are you looking for `mapTo()`?");return D.lift(new V(R,C))}}class V{constructor(C,k){this.project=C,this.thisArg=k}call(C,k){return k.subscribe(new P(C,this.project,this.thisArg))}}class P extends x.L{constructor(C,k,D){super(C),this.project=k,this.count=0,this.thisArg=D||this}_next(C){let k;try{k=this.project.call(this.thisArg,C,this.count++)}catch(D){return void this.destination.error(D)}this.destination.next(k)}}},80919:(q,N,m)=>{"use strict";m.d(N,{J:()=>V});var x=m(18709),M=m(7913);function V(P=Number.POSITIVE_INFINITY){return(0,x.zg)(M.y,P)}},18709:(q,N,m)=>{"use strict";m.d(N,{zg:()=>P,VS:()=>k});var x=m(71726),M=m(79906),V=m(76803);function P(D,T,E=Number.POSITIVE_INFINITY){return"function"==typeof T?y=>y.pipe(P((_,O)=>(0,M.D)(D(_,O)).pipe((0,x.U)((A,$)=>T(_,A,O,$))),E)):("number"==typeof T&&(E=T),y=>y.lift(new R(D,E)))}class R{constructor(T,E=Number.POSITIVE_INFINITY){this.project=T,this.concurrent=E}call(T,E){return E.subscribe(new C(T,this.project,this.concurrent))}}class C extends V.Ds{constructor(T,E,y=Number.POSITIVE_INFINITY){super(T),this.project=E,this.concurrent=y,this.hasCompleted=!1,this.buffer=[],this.active=0,this.index=0}_next(T){this.active<this.concurrent?this._tryNext(T):this.buffer.push(T)}_tryNext(T){let E;const y=this.index++;try{E=this.project(T,y)}catch(_){return void this.destination.error(_)}this.active++,this._innerSub(E)}_innerSub(T){const E=new V.IY(this),y=this.destination;y.add(E);const _=(0,V.ft)(T,E);_!==E&&y.add(_)}_complete(){this.hasCompleted=!0,0===this.active&&0===this.buffer.length&&this.destination.complete(),this.unsubscribe()}notifyNext(T){this.destination.next(T)}notifyComplete(){const T=this.buffer;this.active--,T.length>0?this._next(T.shift()):0===this.active&&this.hasCompleted&&this.destination.complete()}}const k=P},31555:(q,N,m)=>{"use strict";m.d(N,{O:()=>M});var x=m(47900);function M(P,R){return function(k){let D;if(D="function"==typeof P?P:function(){return P},"function"==typeof R)return k.lift(new V(D,R));const T=Object.create(k,x.N);return T.source=k,T.subjectFactory=D,T}}class V{constructor(R,C){this.subjectFactory=R,this.selector=C}call(R,C){const{selector:k}=this,D=this.subjectFactory(),T=k(D).subscribe(R);return T.add(C.subscribe(D)),T}}},81307:(q,N,m)=>{"use strict";m.d(N,{x:()=>M});var x=m(65530);function M(){return function(C){return C.lift(new V(C))}}class V{constructor(C){this.connectable=C}call(C,k){const{connectable:D}=this;D._refCount++;const T=new P(C,D),E=k.subscribe(T);return T.closed||(T.connection=D.connect()),E}}class P extends x.L{constructor(C,k){super(C),this.connectable=k}_unsubscribe(){const{connectable:C}=this;if(!C)return void(this.connection=null);this.connectable=null;const k=C._refCount;if(k<=0)return void(this.connection=null);if(C._refCount=k-1,k>1)return void(this.connection=null);const{connection:D}=this,T=C._connection;this.connection=null,T&&(!D||T===D)&&T.unsubscribe()}}},98834:(q,N,m)=>{"use strict";m.d(N,{B:()=>R});var x=m(31555),M=m(81307),V=m(90850);function P(){return new V.xQ}function R(){return C=>(0,M.x)()((0,x.O)(P)(C))}},24107:(q,N,m)=>{"use strict";m.d(N,{r:()=>V});var x=m(32731),M=m(53488);function V(P,R){return new x.y(C=>{const k=new M.w;let D=0;return k.add(R.schedule(function(){D!==P.length?(C.next(P[D++]),C.closed||k.add(this.schedule())):C.complete()})),k})}},3874:(q,N,m)=>{"use strict";m.d(N,{c:()=>V});var x=m(32731),M=m(53488);function V(P,R){return new x.y(C=>{const k=new M.w;return k.add(R.schedule(()=>P.then(D=>{k.add(R.schedule(()=>{C.next(D),k.add(R.schedule(()=>C.complete()))}))},D=>{k.add(R.schedule(()=>C.error(D)))}))),k})}},99477:(q,N,m)=>{"use strict";m.d(N,{x:()=>O});var x=m(32731),M=m(53488),V=m(84358),R=m(3874),C=m(24107),k=m(69662),E=m(60201),y=m(62024);function O(A,$){if(null!=A){if(function(A){return A&&"function"==typeof A[V.L]}(A))return function(A,$){return new x.y(ee=>{const z=new M.w;return z.add($.schedule(()=>{const F=A[V.L]();z.add(F.subscribe({next(oe){z.add($.schedule(()=>ee.next(oe)))},error(oe){z.add($.schedule(()=>ee.error(oe)))},complete(){z.add($.schedule(()=>ee.complete()))}}))})),z})}(A,$);if((0,E.t)(A))return(0,R.c)(A,$);if((0,y.z)(A))return(0,C.r)(A,$);if(function(A){return A&&"function"==typeof A[k.hZ]}(A)||"string"==typeof A)return function(A,$){if(!A)throw new Error("Iterable cannot be null");return new x.y(ee=>{const z=new M.w;let F;return z.add(()=>{F&&"function"==typeof F.return&&F.return()}),z.add($.schedule(()=>{F=A[k.hZ](),z.add($.schedule(function(){if(ee.closed)return;let oe,Do;try{const Er=F.next();oe=Er.value,Do=Er.done}catch(Er){return void ee.error(Er)}Do?ee.complete():(ee.next(oe),this.schedule())}))})),z})}(A,$)}throw new TypeError((null!==A&&typeof A||A)+" is not observable")}},69662:(q,N,m)=>{"use strict";m.d(N,{hZ:()=>M});const M="function"==typeof Symbol&&Symbol.iterator?Symbol.iterator:"@@iterator"},84358:(q,N,m)=>{"use strict";m.d(N,{L:()=>x});const x="function"==typeof Symbol&&Symbol.observable||"@@observable"},71846:(q,N,m)=>{"use strict";m.d(N,{b:()=>x});const x="function"==typeof Symbol?Symbol("rxSubscriber"):"@@rxSubscriber_"+Math.random()},34835:(q,N,m)=>{"use strict";m.d(N,{N:()=>M});const M=(()=>{function V(){return Error.call(this),this.message="object unsubscribed",this.name="ObjectUnsubscribedError",this}return V.prototype=Object.create(Error.prototype),V})()},23564:(q,N,m)=>{"use strict";m.d(N,{_:()=>M});var x=m(65530);function M(V){for(;V;){const{closed:P,destination:R,isStopped:C}=V;if(P||C)return!1;V=R&&R instanceof x.L?R:null}return!0}},4358:(q,N,m)=>{"use strict";function x(M){setTimeout(()=>{throw M},0)}m.d(N,{z:()=>x})},7913:(q,N,m)=>{"use strict";function x(M){return M}m.d(N,{y:()=>x})},18533:(q,N,m)=>{"use strict";m.d(N,{k:()=>x});const x=Array.isArray||(M=>M&&"number"==typeof M.length)},62024:(q,N,m)=>{"use strict";m.d(N,{z:()=>x});const x=M=>M&&"number"==typeof M.length&&"function"!=typeof M},22299:(q,N,m)=>{"use strict";function x(M){return"function"==typeof M}m.d(N,{m:()=>x})},23093:(q,N,m)=>{"use strict";function x(M){return null!==M&&"object"==typeof M}m.d(N,{K:()=>x})},60201:(q,N,m)=>{"use strict";function x(M){return!!M&&"function"!=typeof M.subscribe&&"function"==typeof M.then}m.d(N,{t:()=>x})},44711:(q,N,m)=>{"use strict";function x(M){return M&&"function"==typeof M.schedule}m.d(N,{K:()=>x})},48009:(q,N,m)=>{"use strict";m.d(N,{z:()=>M,U:()=>V});var x=m(7913);function M(...P){return V(P)}function V(P){return 0===P.length?x.y:1===P.length?P[0]:function(C){return P.reduce((k,D)=>D(k),C)}}},12653:(q,N,m)=>{"use strict";m.d(N,{s:()=>E});var x=m(74843),M=m(94440),V=m(69662),R=m(84358),k=m(62024),D=m(60201),T=m(23093);const E=y=>{if(y&&"function"==typeof y[R.L])return(y=>_=>{const O=y[R.L]();if("function"!=typeof O.subscribe)throw new TypeError("Provided object does not correctly implement Symbol.observable");return O.subscribe(_)})(y);if((0,k.z)(y))return(0,x.V)(y);if((0,D.t)(y))return(0,M.A)(y);if(y&&"function"==typeof y[V.hZ])return(y=>_=>{const O=y[V.hZ]();for(;;){let A;try{A=O.next()}catch($){return _.error($),_}if(A.done){_.complete();break}if(_.next(A.value),_.closed)break}return"function"==typeof O.return&&_.add(()=>{O.return&&O.return()}),_})(y);{const O=`You provided ${(0,T.K)(y)?"an invalid object":`'${y}'`} where a stream was expected. You can provide an Observable, Promise, Array, or Iterable.`;throw new TypeError(O)}}},74843:(q,N,m)=>{"use strict";m.d(N,{V:()=>x});const x=M=>V=>{for(let P=0,R=M.length;P<R&&!V.closed;P++)V.next(M[P]);V.complete()}},94440:(q,N,m)=>{"use strict";m.d(N,{A:()=>M});var x=m(4358);const M=V=>P=>(V.then(R=>{P.closed||(P.next(R),P.complete())},R=>P.error(R)).then(null,x.z),P)},98255:q=>{function N(m){return Promise.resolve().then(()=>{var x=new Error("Cannot find module '"+m+"'");throw x.code="MODULE_NOT_FOUND",x})}N.keys=()=>[],N.resolve=N,N.id=98255,q.exports=N}}]);

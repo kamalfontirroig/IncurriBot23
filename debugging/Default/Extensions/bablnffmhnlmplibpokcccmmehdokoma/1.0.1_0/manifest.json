@@ -1,0 +1,21 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Getting HTML/DOM objects for QuickAccess",
+   "host_permissions": [ "http://*/*", "https://*/*", "file://*/*" ],
+   "icons": {
+      "128": "intern/icon/icon_128px.png",
+      "16": "intern/icon/icon_16px.png",
+      "256": "intern/icon/icon_256px.png",
+      "32": "intern/icon/icon_32px.png",
+      "48": "intern/icon/icon_48px.png",
+      "64": "intern/icon/icon_64px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgFMnvGJ13qfZV4znhKDQEpiny5eVWduyv+TSeLNbFQ/RkKYxM3LBtm7agke2JQqKcIuj6iGxEQqXFaStKEN8VGqzGq6IlazXpTvG5D2EcHIcZaQ7L8k2lv3EUUaV3CMKi9PH/Zf+m8BJJcobQ3LyBlrpcAOOG5lvzca0e2XVmXueA5sL0GQde6f0/Kmky44zuQK1QtDOwHOs2Q0HakoeQfbuht5AbbVO0yG9wcLbWB1+sH2RiGUQTJC8n71tppyRLZAwW+bt0mTzaMe3j2jzBi9DlM/eaS4/v3zuhKqG9AZnmtJiKXumglszYbzldyDAwKRO4Z5D3QOTI3Z62IuPjQIDAQAB",
+   "manifest_version": 3,
+   "name": "QuickAccess Browser Integration",
+   "permissions": [ "storage", "nativeMessaging", "tabs", "scripting", "management", "idle" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}
