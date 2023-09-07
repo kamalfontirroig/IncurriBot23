@@ -30,30 +30,28 @@ userPassword = "contraseña"
 ## For Example:
 ## [('12/ene/2023 9:00 AM','6h','Worked Hard'), ('12/ene/2023 3:00 PM','2h','Worked kinda hard'), ('12/ene/2023 6:00 PM','1h','Picked my belly button')]
 ## ATM job descriptions are not being added to  the incurred days, LEAVE EMPTY
-daysToIncurr = [ ('07/mar/2023 8:00 AM','9h',''), ('08/mar/2023 8:00 AM','9h',''), ('09/mar/2023 8:00 AM','9h',''), ('10/mar/2023 8:00 AM','9h',''),
-('13/mar/2023 8:00 AM','9h',''), ('14/mar/2023 8:00 AM','9h',''), ('15/mar/2023 8:00 AM','9h',''), ('16/mar/2023 8:00 AM','9h',''), ('17/mar/2023 8:00 AM','9h',''),
-('20/mar/2023 8:00 AM','9h',''), ('21/mar/2023 8:00 AM','9h',''), ('22/mar/2023 8:00 AM','9h',''), ('23/mar/2023 8:00 AM','9h',''), ('24/mar/2023 8:00 AM','9h','')]
+daysToIncurr = [ ('04/sep/2023 8:00 AM','9h',''), ('05/sep/2023 8:00 AM','9h',''), ('06/sep/2023 8:00 AM','9h',''), ('7/sep/2023 8:00 AM','9h',''), ('8/sep/2023 8:00 AM','9h',''),]
+#('14/mar/2023 8:00 AM','9h',''), ('15/mar/2023 8:00 AM','9h',''), ('16/mar/2023 8:00 AM','9h',''), ('17/mar/2023 8:00 AM','9h',''),
+#('20/mar/2023 8:00 AM','9h',''), ('21/mar/2023 8:00 AM','9h',''), ('22/mar/2023 8:00 AM','9h',''), ('23/mar/2023 8:00 AM','9h',''), ('24/mar/2023 8:00 AM','9h','')]
 
 ##This is the site where the bot will incurr the above daysToIncurr array
 ## For example: "https://umane.everis.com/jiraito/browse/HPCCHILE-96" <- Proyecto
 ## Availability: "https://umane.everis.com/jiraito/browse/HPCCHILE-1472" <- Availability
-jiraToIncurrUrl = "https://umane.everis.com/jiraito/browse/HPCCHILE-1472"
+jiraToIncurrUrl = "https://umane.emeal.nttdata.com/jiraito/browse/HPCCHILE-2589"
 
 ## if Two Factor Aunthentication (2FA) is set - as it should be :judgy_eyes: - the bot will only start after it is succesfully login.
 ## For this, it uses a loginProof, that can be any element's xpath that will be present in the page we are redirected to after succesful 2FA
 ## For example: "//a[@data-issue-key='HPCCHILE-84']" <- Proyecto
 ## Availability: "//a[@data-issue-key='HPCCHILE-355']" <- Staffing Pool - Availavility
 
-loginProof = "//a[@data-issue-key='HPCCHILE-355']"
+loginProof = "//a[@data-issue-key='HPCCHILE-2577']"
 ##########
 ##########
 
 
 ##Bot starts here
-options = Options()
-options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-driver = webdriver.Chrome(chrome_options=options)
+
 
 driver.get(jiraToIncurrUrl)
 
